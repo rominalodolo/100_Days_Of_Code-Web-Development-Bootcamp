@@ -76,6 +76,9 @@ HTML back story:
 ![meta](https://github.com/user-attachments/assets/edbfb7a7-0264-435e-a016-9ce5523d0ff0)
 
 
+#### More about Visual Sutdio COde
+Read these notes from [this](https://academind.com/tutorials/visual-studio-code-introduction/) web page
+
 #### Code Comments [Day 3]
 One thing we haven't used up to this point but which you will see later in the course are "Comments" in your code.
 

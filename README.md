@@ -16,7 +16,7 @@ Hyper Text Markup Language
 <img width="924" height="461" alt="image" src="https://github.com/user-attachments/assets/7b7500da-741a-4906-94e3-a82f7e6cee67" />
 
 
-Quiz 1: 
+### Quiz 1: 
 What is HTML all about?
 A: HTML is used to define and describe your content and page structure.
 
@@ -86,31 +86,61 @@ As a developer, you can add extra, human-readable comments into your HTML or CSS
 
 Here's how you would add a comment in HTML:
 
+```
 <body>
     <h1>This is a main title!</h1>
     <!-- This is a comment - the browser ignores it. It won't show up on the user's screen -->
 </body>
+```
+
 Comments are added with help of the special <!-- opening and --> closing tags. They are only visible in your source code, not on the rendered page.
 
 You can also add comments in your CSS code:
 
+```
 p {
     font-family: sans-serif; /* Switch to sans-serif instead of serif */
 }
-In CSS, you create comments via the /* */. Again, you can add extra annotations for other developers (or yourself) with help of comments - the browser will ignore them, they hence won't affect your page styles.
+```
+
+In CSS, you create comments via the `/* */`. Again, you can add extra annotations for other developers (or yourself) with help of comments - the browser will ignore them, they hence won't affect your page styles.
 
 Comments are also not just used for adding extra information but also for "commenting out" unused code.
 
 For example, if you want to test a different color but not lose your previously picked color, you could comment our your old CSS property/value pair and add the new one in addition. The old one, which was commented out, will be ignored by the browser but you can always switch back to it by simply removing the comment.
 
+```
 p {
     /* color: red; */
     color: green;
 }
+```
 color: red is commented out in the above example. Hence it's ignored by the browser but we can still easily switch back to it.
 
 In Visual Studio Code, there also are shortcuts for quickly adding or removing comments around the code in a selected line - simply search for the "Toggle Line Comment" shortcut
 
+
+### Quiz 2:
+What's the main idea behind CSS?
+A: CSS is used to set the styling and look of your page and content. 
+
+How do you use CSS?
+A: You set "properties" and their values for HTML elements
+
+What does "inline styles" mean?
+A: It meams that you can assign element styles via the "style" attribute. 
+
+What's the advantage of "global CSS" styles (i.e. NOT "inline styles")?
+A: One CSS rule can apply to multiple elements of the page. 
+
+What's a "CSS Selector"?
+A: The part of a CSS rule that defines for which element(s) the rule applies.
+
+What's the idea behind the "head" and "body" sections in the HTML document?
+A: It clarifies which content is the main visual content and which data is extra metadata
+
+What happens if you edit the page (e.g. HTML element styles or attributes) via the browser developer tools?
+A: The page is changed until you reload.
 
 
 

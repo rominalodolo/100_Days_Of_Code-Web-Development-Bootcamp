@@ -317,3 +317,7 @@ Try visiting academind.com:443 or academind.com:80 => You will see the regular A
 
 <img width="2400" height="1800" alt="image" src="https://github.com/user-attachments/assets/cb646585-7d54-4dc5-b49a-2e0343fef126" />
 
+NB:
+Inheritance: (Selected) container rules apply to decendents
+Cascading style sheets: multiple rules can be applied to the same element
+Specificity: More specific selector's rule wins over less specific selector

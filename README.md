@@ -199,6 +199,25 @@ E.g. if you write &gt; in your HTML code, the browser will output the ">" (great
 `&lt; => "<" `(lower than)
 
 
+#### Adding Images
 
+Always add an alt attribute so that users who can't see the image can hear what it is about. 
+
+Styling an image so it's centered and circular: 
+
+```
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;  
+}
+
+body {
+    text-aligned: center; 
+}
+
+```
+
+To center - you need to target the parent container for it to work. 
 
 

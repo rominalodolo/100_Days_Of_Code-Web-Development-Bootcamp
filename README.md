@@ -192,7 +192,7 @@ But what if you would want to output the "<" and ">" characters or a complete HT
 
 There are two main ways of achieving this:
 
-You can use the special <pre>...</pre> tags (for "preformatted text") - these tags wrap any text (that may include HTML code) and "tell the browser" to output it as plain text (i.e. NOT interpret it as HTML code). When using <pre>, whitespace is also preserved and NOT ignored (as it normally would be)
+You can use the special `<pre>...</pre>` tags (for "preformatted text") - these tags wrap any text (that may include HTML code) and "tell the browser" to output it as plain text (i.e. NOT interpret it as HTML code). When using `<pre>`, whitespace is also preserved and NOT ignored (as it normally would be)
 
 Alternatively, if you simply want to output the "<" character (e.g. in some math formula that should be shown on your page), you can use some special "shortcuts" (so-called "HTML entities") in your HTML code:
 

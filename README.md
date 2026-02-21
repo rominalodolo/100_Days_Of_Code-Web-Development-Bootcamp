@@ -76,7 +76,37 @@ HTML back story:
 ![meta](https://github.com/user-attachments/assets/edbfb7a7-0264-435e-a016-9ce5523d0ff0)
 
 
+#### Code Comments [Day 3]
+One thing we haven't used up to this point but which you will see later in the course are "Comments" in your code.
 
+As a developer, you can add extra, human-readable comments into your HTML or CSS code which will be ignored by the browser but can help you or other developers understand your code.
+
+Here's how you would add a comment in HTML:
+
+<body>
+    <h1>This is a main title!</h1>
+    <!-- This is a comment - the browser ignores it. It won't show up on the user's screen -->
+</body>
+Comments are added with help of the special <!-- opening and --> closing tags. They are only visible in your source code, not on the rendered page.
+
+You can also add comments in your CSS code:
+
+p {
+    font-family: sans-serif; /* Switch to sans-serif instead of serif */
+}
+In CSS, you create comments via the /* */. Again, you can add extra annotations for other developers (or yourself) with help of comments - the browser will ignore them, they hence won't affect your page styles.
+
+Comments are also not just used for adding extra information but also for "commenting out" unused code.
+
+For example, if you want to test a different color but not lose your previously picked color, you could comment our your old CSS property/value pair and add the new one in addition. The old one, which was commented out, will be ignored by the browser but you can always switch back to it by simply removing the comment.
+
+p {
+    /* color: red; */
+    color: green;
+}
+color: red is commented out in the above example. Hence it's ignored by the browser but we can still easily switch back to it.
+
+In Visual Studio Code, there also are shortcuts for quickly adding or removing comments around the code in a selected line - simply search for the "Toggle Line Comment" shortcut
 
 
 

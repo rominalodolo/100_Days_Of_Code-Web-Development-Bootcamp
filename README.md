@@ -44,9 +44,36 @@ Cascading Style Sheets
 
 <img width="800" height="586" alt="image" src="https://github.com/user-attachments/assets/0f054dd4-3e70-4b44-a127-4576eab5e8a8" />
 
+When not using inline styles (via the style attribute), CSS code typically looks something like this:
+
+p {
+    font-family: sans-serif;
+    text-align: center;
+}
+This code is formatted to be more readable. Theoretically, you could also write it like this:
+
+p {font-family: sans-serif;text-align: center;}
+But of course such kind of code is way harder to understand and maintain, hence we typically go for the more readable version.
+
+Here are a couple of conventions about CSS code formatting, which you should keep in mind:
+
+The selector (p in the above example) and the opening curly brace typically go into the same line
+
+You then have one CSS property + its value per line
+
+Every line MUST end with a semi-colon
+
+The lines are indented (automatically, via the "Format Document" shortcut or because you pressed the TAB key on your keyboard)
+
+The closing curly brace goes into a separate line, with no indentation
 
 
+#### Meta tags and history
 
+HTML back story: 
+![history](https://github.com/user-attachments/assets/f496dd08-0d29-49cf-b720-a083532e7136)
+
+![meta](https://github.com/user-attachments/assets/edbfb7a7-0264-435e-a016-9ce5523d0ff0)
 
 
 

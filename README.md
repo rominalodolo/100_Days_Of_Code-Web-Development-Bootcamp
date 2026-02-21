@@ -115,6 +115,7 @@ p {
     color: green;
 }
 ```
+
 color: red is commented out in the above example. Hence it's ignored by the browser but we can still easily switch back to it.
 
 In Visual Studio Code, there also are shortcuts for quickly adding or removing comments around the code in a selected line - simply search for the "Toggle Line Comment" shortcut
@@ -156,6 +157,7 @@ In both HTML and CSS (and later also in "JavaScript"), as a developer, you typic
 For example, the following two snippets contain the same code and hence would lead to the same result. The browser would understand both, but they are not equally readable / understandable for us humans:
 
 1) No formatting
+   
 ```
 <html><head><title>A test </title><style>h1{color:red}</style></head><body><h1>Hi there!</h1><p>This is some text...</p></body></html>
 ```
@@ -196,7 +198,7 @@ Alternatively, if you simply want to output the "<" character (e.g. in some math
 
 E.g. if you write &gt; in your HTML code, the browser will output the ">" (greater than) symbol
 
-`&lt; => "<" `(lower than)
+``&lt; => "<" `` (lower than)
 
 
 #### Adding Images
@@ -215,7 +217,6 @@ img {
 body {
     text-aligned: center; 
 }
-
 ```
 
 To center - you need to target the parent container for it to work. 

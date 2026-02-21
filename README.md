@@ -312,3 +312,8 @@ And you target a specific port by adding :<port-number> after the domain or IP a
 You can try this with other websites, too!
 
 Try visiting academind.com:443 or academind.com:80 => You will see the regular Academind website. Of course you don't need to add the extra port information in the URL though - since 80 and 443 are the defaults, the browser will use these ports automatically, if you enter a website address.
+
+#### Nesting elements and how they use styles
+
+<img width="2400" height="1800" alt="image" src="https://github.com/user-attachments/assets/cb646585-7d54-4dc5-b49a-2e0343fef126" />
+

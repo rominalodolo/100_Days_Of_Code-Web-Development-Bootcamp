@@ -262,3 +262,7 @@ What was the most challenging part in the assignment and how did you overcome it
 Couldn't hear the second request for the type of font clearly, so went with a different type of sans font. 
 
 [Link](https://fonts.google.com/selection/embed) to get the Google fonts used
+
+
+Adding live server extension to editor so we can view the code while we make changes instead of reloading the browser. 
+<img width="1127" height="719" alt="image" src="https://github.com/user-attachments/assets/c566226a-f9f9-480b-8022-1498a762ebd3" />

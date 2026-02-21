@@ -260,3 +260,5 @@ A: "contact.html"
 Assigmnet
 What was the most challenging part in the assignment and how did you overcome it?
 Couldn't hear the second request for the type of font clearly, so went with a different type of sans font. 
+
+[Link](https://fonts.google.com/selection/embed) to get the Google fonts used

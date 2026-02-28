@@ -353,6 +353,11 @@ Each box consists of the following layers, from the innermost to the outermost:
 > > Child - h2 > p Only p which are direct children of h2
 > 
 
+#### Display Propery with CSS
+
+<img width="3401" height="2894" alt="image" src="https://github.com/user-attachments/assets/01e826be-ff40-4f60-95c4-c6e92c362c64" />
+
+<img width="2400" height="1800" alt="image" src="https://github.com/user-attachments/assets/9cfd47a2-eae4-4e14-8950-79ac660090a6" />
 
 
 

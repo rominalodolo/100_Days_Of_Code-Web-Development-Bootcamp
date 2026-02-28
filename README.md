@@ -427,5 +427,5 @@ Would select this HTML element for example: <a>...</a> (when the user hovers ove
 
 This selector selects all elements that meet this "pseudo state" (i.e. all links that are hovered in this example)
 
-
+Notes: https://github.com/academind/100-days-of-web-development/blob/04-html-css-first-practice-summary/extra-files/html-css-basics-summary.pdf 
 

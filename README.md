@@ -321,3 +321,41 @@ NB:
 Inheritance: (Selected) container rules apply to decendents
 Cascading style sheets: multiple rules can be applied to the same element
 Specificity: More specific selector's rule wins over less specific selector
+
+
+### CSS Box Model 
+
+##### The Four Areas of the Box Model
+Each box consists of the following layers, from the innermost to the outermost: 
+* Content: The innermost area where the actual content (text, images, or other media) is displayed. Its size is controlled by the width and height properties in CSS.
+* Padding: The transparent space that immediately surrounds the content area, inside the border. It provides "breathing room" for the content. The background of the element extends into the padding area. Properties like padding-top, padding-right, padding-bottom, and padding-left are used to control its size.
+* Border: A visible line or boundary that wraps around the padding and content areas. The border properties are used to define its style (e.g., solid, dotted), width, and color.
+* Margin: The outermost, transparent space that surrounds the border, creating distance between the current element and other neighboring elements on the page. Margins are always transparent and do not have a background color. Properties like margin-top, margin-right, margin-bottom, and margin-left control the outer spacing, and negative values are allowed. 
+
+<img width="3401" height="2894" alt="image" src="https://github.com/user-attachments/assets/b24be4f8-f1fa-4686-b807-2d9c2e226a3c" />
+
+#### Selectors and Combinators 
+
+> Selectors
+> 
+> > Type - elements
+> >
+> > ID - #id
+> >
+> > Group - elementname, element name
+> >
+> > Class - .class
+> >
+> Combinations
+>
+> > Descendant - li p All p with li as ancestor
+> >
+> > Child - h2 > p Only p which are direct children of h2
+> 
+
+
+
+
+
+
+

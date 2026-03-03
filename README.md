@@ -430,3 +430,9 @@ This selector selects all elements that meet this "pseudo state" (i.e. all links
 
 Notes: https://github.com/academind/100-days-of-web-development/blob/04-html-css-first-practice-summary/extra-files/html-css-basics-summary.pdf 
 
+
+## Deployment 
+
+https://app.netlify.com/drop 
+Adding my section 4 files to a section 5 folder to drop into the site. 
+

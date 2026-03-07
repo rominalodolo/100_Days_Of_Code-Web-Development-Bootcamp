@@ -467,3 +467,40 @@ I just used what he spoke about in the tutorial:
 ## Git and Github 
 
 I already have an account with Github - as seen with how I have done this repo etc. 
+
+Adding [Git](https://git-scm.com/install/)
+
+<img width="1173" height="618" alt="image" src="https://github.com/user-attachments/assets/db0e38e3-7e27-4812-89c3-8f3364f98f52" />
+
+steps found online but I will continue with Github as it's not required for what I need currently but still went though this section to understand it. 
+
+```
+There are several options for installing Git on macOS. Note that any non-source distributions are provided by third parties, and may not be up to date with the latest source release.
+
+Choose one of the following options for installing Git on macOS:
+
+Homebrew
+Install homebrew if you don't already have it, then:
+$ brew install git
+
+MacPorts
+Install MacPorts if you don't already have it, then:
+$ sudo port install git
+
+Xcode Command Line Tools
+Apple ships a binary package of Git with Xcode Command Line Tools. You can install this via:
+$ xcode-select --install
+
+Binary installer
+Tim Harper provided an installer for Git until version 2.33.0 / 2021. These installers are no longer linked from here because there are no updates since that version, nor are there plans to provide any.
+
+Installing git-gui
+If you would like to install git-gui and gitk, git's commit GUI and interactive history browser, you can do so using homebrew
+$ brew install git-gui
+```
+
+#### GUI vs CLI 
+
+Graphical User Interface vs Command Line Interface
+
+<img width="612" height="290" alt="image" src="https://github.com/user-attachments/assets/3f284427-c927-4cc1-8c27-daf17e7f4a18" />

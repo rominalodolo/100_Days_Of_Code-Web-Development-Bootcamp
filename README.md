@@ -518,3 +518,14 @@ pwd
 <img width="983" height="910" alt="image" src="https://github.com/user-attachments/assets/00df0b9d-1ce5-42be-a6fc-790d1051fe2e" />
 
 
+Installing Git for demo purpose:
+`$ brew install git`
+<img width="739" height="706" alt="image" src="https://github.com/user-attachments/assets/cfa6420a-be8e-4102-a04c-49fa628237e7" />
+
+
+Git basics: 
+Working directory - your current folder 
+Repositories, hidden but tracks changes here. It stores first verion then tracks the next states for these files. You do this with commits / they are new snapshots. Stored in master branches or any other branches you create. 
+
+
+

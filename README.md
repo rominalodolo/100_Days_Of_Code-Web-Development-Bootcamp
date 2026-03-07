@@ -433,6 +433,13 @@ Notes: https://github.com/academind/100-days-of-web-development/blob/04-html-css
 
 ## Deployment 
 
-https://app.netlify.com/drop 
+[Link](https://app.netlify.com/drop ) to qucikly depoly any app 
 Adding my section 4 files to a section 5 folder to drop into the site. 
+Like to my section 5 deployed site (Base template) https://100-days-code-section5.netlify.app/ 
+
+<img width="1122" height="895" alt="image" src="https://github.com/user-attachments/assets/c2ea55c7-5e67-4725-b548-0ee64fafc276" />
+
+How Netlify looks now - last deplyed a project in 2021, this is now what it looks like with the updates:
+<img width="1512" height="895" alt="image" src="https://github.com/user-attachments/assets/6e1ab6f5-d108-45cc-925f-fe067f4be9cc" />
+<img width="3024" height="1790" alt="image" src="https://github.com/user-attachments/assets/495ead92-5446-4cac-86b3-6b68e6b4ce95" />
 

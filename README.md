@@ -462,3 +462,8 @@ I just used what he spoke about in the tutorial:
 
 ## Relative vs Absolute paths
 <img width="550" height="551" alt="image" src="https://github.com/user-attachments/assets/d3586056-f1dc-42b8-95e9-9bac81454af2" />
+
+
+## Git and Github 
+
+I already have an account with Github - as seen with how I have done this repo etc. 

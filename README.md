@@ -443,3 +443,14 @@ How Netlify looks now - last deplyed a project in 2021, this is now what it look
 <img width="1512" height="895" alt="image" src="https://github.com/user-attachments/assets/6e1ab6f5-d108-45cc-925f-fe067f4be9cc" />
 <img width="3024" height="1790" alt="image" src="https://github.com/user-attachments/assets/495ead92-5446-4cac-86b3-6b68e6b4ce95" />
 
+## Favicon
+
+We haven't added on yet so now we look into adding this in the course. 
+[Link](https://favicon.io/emoji-favicons/cherry-blossom) to website for generating these icons for your site
+
+```
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">```
+

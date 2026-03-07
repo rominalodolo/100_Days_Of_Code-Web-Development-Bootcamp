@@ -453,5 +453,9 @@ https://100-days-code-section5.netlify.app/
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">```
+<link rel="manifest" href="/site.webmanifest">
+```
+<img width="953" height="923" alt="Screenshot 2026-03-07 at 16 08 29" src="https://github.com/user-attachments/assets/cc0fca34-ffbf-4b65-84b0-a94acf2d4ca1" />
 
+I just used what he spoke about in the tutorial: 
+`    <link rel="icon" href="/favicon.ico" type="image/x-icon">`

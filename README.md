@@ -504,3 +504,17 @@ $ brew install git-gui
 Graphical User Interface vs Command Line Interface
 
 <img width="612" height="290" alt="image" src="https://github.com/user-attachments/assets/3f284427-c927-4cc1-8c27-daf17e7f4a18" />
+
+MAC users use the Terminal which is z Shell
+
+Terminal vs Finder folder 
+<img width="983" height="910" alt="image" src="https://github.com/user-attachments/assets/00e5e439-e49e-49fe-b169-a9d38bea816b" />
+
+```
+pwd
+/Users/rominalodolo
+```
+
+<img width="983" height="910" alt="image" src="https://github.com/user-attachments/assets/00df0b9d-1ce5-42be-a6fc-790d1051fe2e" />
+
+

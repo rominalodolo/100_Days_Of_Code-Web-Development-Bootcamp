@@ -445,8 +445,9 @@ How Netlify looks now - last deplyed a project in 2021, this is now what it look
 
 ## Favicon
 
-We haven't added on yet so now we look into adding this in the course. 
+We haven't added one yet so now we look into adding this image during this section of the course. 
 [Link](https://favicon.io/emoji-favicons/cherry-blossom) to website for generating these icons for your site
+https://100-days-code-section5.netlify.app/ 
 
 ```
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">

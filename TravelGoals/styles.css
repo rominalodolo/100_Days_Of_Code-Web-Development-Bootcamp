@@ -15,7 +15,7 @@
     border-radius: 30px;
     background-color: #707093;
     width: 40%;
-    height: 40%;
+    height: 25%;
     opacity: 50%;
     box-shadow: 2pcx 2px 10px rgba(0, 0, 0, 0.5);
     padding: 50px 0;
@@ -29,7 +29,11 @@
     text-transform: uppercase;
 }
 
+
 #hero-content a {
     text-decoration: none;
     color: #1f1215;
+    background-color: darksalmon;
+    padding: 12px 24px;
+    font-size: 24px;
 }

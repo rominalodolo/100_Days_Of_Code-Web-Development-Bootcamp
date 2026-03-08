@@ -4,3 +4,23 @@
     background-position: center;
     background-size: cover;
 }
+
+#hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #1f1215;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    border-radius: 30px;
+    background-color: #707093;
+    width: 40%;
+    height: 40%;
+    opacity: 50%;
+}
+
+#hero-content a {
+    text-decoration: none;
+    color: #1f1215;
+}

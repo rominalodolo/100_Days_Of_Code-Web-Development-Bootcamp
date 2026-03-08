@@ -21,6 +21,7 @@
     padding: 50px 0;
     top: 200px;
     margin: 0 auto;
+
 }
 
 #hero-content h1 {
@@ -29,6 +30,10 @@
     text-transform: uppercase;
 }
 
+#hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
 
 #hero-content a {
     text-decoration: none;
@@ -36,4 +41,12 @@
     background-color: darksalmon;
     padding: 12px 24px;
     font-size: 24px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
+
+#hero-content a:hover {
+    background-color: #ff7f50;
+    color: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+} 

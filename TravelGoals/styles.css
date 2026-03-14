@@ -52,10 +52,18 @@
 
 #all-destinations {
   padding: 24px;
-  background: linear-gradient(0deg, rgb(227, 255, 253), rgb(202, 243, 240));
+  background: linear-gradient(90deg, #33262f, #836763);
 }
 
-#destination-list {
+#all-destinations h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  color: #180e16;
+  margin: 24px 0;
+}
+
+#destinations-list {
     display: flex;
     justify-content: center;
     width: 90%;
@@ -72,8 +80,9 @@
 .destination p {
   text-align: center;
   font-size: 24px;
-  color: rgb(124, 123, 123);
+  color: #180e16;
   margin: 20px 0;
+  text-shadow: 2px 2px 4px #7b5f61;
 }
 
 .destination img {

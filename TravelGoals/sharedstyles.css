@@ -54,3 +54,27 @@ header a{
     transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
+footer {
+  background: linear-gradient(70deg, #c19a81, #646287);
+  padding: 36px 0;
+  text-align: center;
+  color: #ff7f50;
+  text-shadow: #2a140f 1px 1px 2px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+footer li {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+footer img {
+  width: 100%;
+  height: 100%;
+}

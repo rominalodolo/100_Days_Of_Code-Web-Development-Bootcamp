@@ -21,6 +21,7 @@ html {
 
 .card-container:hover{
     transform: scale(1.10);
+    transition: transform 0.5s ease-out;
 }
 
 h1 {
@@ -67,7 +68,7 @@ h1 {
 
 .icon {
   display: flex;
-  width: 10px;
+  width: 15px;
 }
 
 .sub-feature-text {
@@ -93,6 +94,8 @@ h1 {
   border: 2px solid rgb(224, 224, 224);
   font-size: 18px;
   font-weight: 600;
+transform: background-color 0.5s ease-out !important;
+
 }
 
 .button:hover {

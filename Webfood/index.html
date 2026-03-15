@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/Webfood/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Webfood</title>
 </head>
+
 <body>
-    <header>
-        <div id="page-logo">
-            <a href="/index.html">Travel Goals</a>
+    <header id="main-header">
+        <div id="logo">
+            <a href="/Webfood/index.html">Webfood</a>
         </div>
         <nav>
             <ul>
@@ -16,16 +24,52 @@
                 <li><a href="myorders.html">My Orders</a></li>
             </ul>
         </nav>
-        <main>  
+         <a href="#side-drawer" class="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </header>
+    <aside id="side-drawer">
+      <header>
+        <a href="#" class="menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </header>
+      <nav>
             <ul>
-                <li><img src="images/tteok-bokki.jpg" alt="Tteok-bokki" />
-                    <a href="tteok-bokki.html">Tteok-bokki</a></li>
-                <li><img src="images/kimbap.jpg" alt="Kimbap" />
-                    <a href="kimbap.html">Kimbap</a></li>
+                <li><a href="browsemeals.html">Browse Meals</a></li>
+                <li><a href="myorders.html">My Orders</a></li>
             </ul>
+        </nav>
+        </aside>
+        <main>
+            <h1>Yum Yum Let's Order</h1>
+            <section id="latest-products">
+                <ul>
+                    <li class="food-item">
+                        <article>
+                            <img src="images/tteok-bokki.jpg" alt="Tteok-bokki" />
+                            <div class="food-item-content">
+                            <h2>Tteok-bokki</h2>
+                            <a href="" class="btn">Add to Cart</a>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="food-item">
+                        <article>
+                            <img src="images/kimbap.jpg" alt="Kimbap" />
+                            <div class="food-item-content">
+                            <h2>Kimbap</h2>
+                            <a href="" class="btn">Add to Cart</a>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </section>
         </main>
-        <footer>
-            <p>&copy; 2023 Webfood. All rights reserved.</p>
-        </footer>
 </body>
+
 </html>

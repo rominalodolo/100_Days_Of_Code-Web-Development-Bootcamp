@@ -606,3 +606,78 @@ Scalable Vector Graphic
 
 ## Forms 
 
+Quiz:
+Question 1:
+What's the purpose of the <form> element?
+It marks the group area and enables from submissions
+
+Question 2? 
+Which form element is the most versatile one?
+`<input>`
+
+Question 3:
+Which key attribute should you always add when working with an <input> element?
+`type` attribute 
+
+Question 4:
+What's the purpose of a form <label>?
+Describes the xpected input. 
+
+Question 5:
+What's the purpose of the for attribute on <label> elements?
+Required to let assistive technologies know which lable belong to which input. 
+
+Question 6:
+What's the difference between radio buttons (type="radio") and checkboxes (type="checkbox")?
+Radio allows one input (boolean), Checkbox allows multiple select options. 
+
+Question 7:
+What does "form submission" mean?
+Input values are sent to the backend server and coule be stored or used for something else. 
+
+Question 8:
+What do the action and method attributes on the <form> element do?
+They configure how the from is submitted. Action contrls target URL and thod does get / post request 
+
+Question 9:
+What does "form validation" mean?
+Based on certain rules the borswer will enforce is the user has entered correct values. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

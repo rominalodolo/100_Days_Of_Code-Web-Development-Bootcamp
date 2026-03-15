@@ -590,3 +590,10 @@ Adding position: relative to #first, will display element 1 above element 2 agai
 2. Less is more. Don't over style the site. 
 3. Keep things clean. 
 
+## Transiton
+The transhttps://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transitionition CSS property is a shorthand property for transition-property, transition-duration, transition-timing-function, transition-delay, and transition-behavior.
+
+## Transfrom 
+
+The [transform](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform) CSS property lets you rotate, scale, skew, or translate an element. It modifies the coordinate space of the CSS visual formatting model.
+

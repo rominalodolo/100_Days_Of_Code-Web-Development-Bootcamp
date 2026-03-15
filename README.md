@@ -582,3 +582,11 @@ Element 2 is taken out of the document flow and displayed on top of element 1.
 Adding z-index: 1 to #first does not change the order of the elements along the z-axis, as the z-index only has an impact on positioned elements, excluding the default value position: static.
 
 Adding position: relative to #first, will display element 1 above element 2 again.
+
+
+## Core Princaples: 
+
+1. Don't get overwhelmed. Build one feature at a time. 
+2. Less is more. Don't over style the site. 
+3. Keep things clean. 
+

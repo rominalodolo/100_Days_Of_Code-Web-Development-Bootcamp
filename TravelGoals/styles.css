@@ -7,20 +7,18 @@
 
 #hero-content {
     position: relative;
-    align-items: center;
     text-align: center;
     color: #1f1215;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     border-radius: 30px;
     background-color: #707093;
-    width: 40%;
-    height: 25%;
+    width: 900px;
+    padding: 50px 0;
     opacity: 50%;
     box-shadow: 2pcx 2px 10px rgba(0, 0, 0, 0.5);
     padding: 50px 0;
     top: 200px;
     margin: 0 auto;
-
 }
 
 #hero-content h1 {

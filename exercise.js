@@ -60,3 +60,14 @@ function getGoalByIndex(goals, index) {
 
 // 6
 alert(getGoalByIndex(mainGoals, 0)); // Output: "Learn the fundamentals of JavaScript"
+
+
+// Object example
+let persom ={
+    name: "John", // Property
+    age: 30,
+    greet() { // Method
+        alert("I am " + this.age + " years old.");
+        console.log("Hello, my name is " + this.name);
+    }
+};

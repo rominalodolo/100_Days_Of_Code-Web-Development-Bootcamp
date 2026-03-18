@@ -63,7 +63,7 @@ alert(getGoalByIndex(mainGoals, 0)); // Output: "Learn the fundamentals of JavaS
 
 
 // Object example
-let persom ={
+let person ={
     name: "John", // Property
     age: 30,
     greet() { // Method
@@ -71,3 +71,5 @@ let persom ={
         console.log("Hello, my name is " + this.name);
     }
 };
+
+person.greet();

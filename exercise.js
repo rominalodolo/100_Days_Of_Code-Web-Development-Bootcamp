@@ -22,14 +22,18 @@
 
 
 // Solution:
+
+// 1
 let courseName = "JavaScript Basics";
 let coursePrice = 49.99;
 let mainGoals = ["Learn the fundamentals of JavaScript", "Build interactive web applications", "Understand asynchronous programming"];
 
+// 2
 alert(courseName);
 alert(coursePrice);
 alert(mainGoals);
 
+// 3
 let courseInfo = {
     name: courseName,
     price: coursePrice,
@@ -40,7 +44,11 @@ alert(courseInfo.name);
 alert(courseInfo.price);
 alert(courseInfo.goals);
 
+// 4
+
 alert(mainGoals[1]);
+
+// 5
 
 function getGoalByIndex(goals, index) {
     if (index >= 0 && index < goals.length) {
@@ -49,3 +57,6 @@ function getGoalByIndex(goals, index) {
         return "Index out of bounds";
     }
 }
+
+// 6
+alert(getGoalByIndex(mainGoals, 0)); // Output: "Learn the fundamentals of JavaScript"

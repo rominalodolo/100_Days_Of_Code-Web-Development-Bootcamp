@@ -791,6 +791,34 @@ console.long("Hi there!");
 
 Question 10:
 Which statement about function is WRONG?
+Funtions can be created to execute code immedalty, once the browser parses the function code. FALSE 
+
+
+Question 11:
+What does this code snippet do?
+
+ `alert('Hi there!');`
+It exectutes "calls" a function.
+
+Question 12:
+What are "function parameters"?
+The input values that may be required by a function.
+
+Question 13:
+What's a "function return value"?
+A function may return a value via the "return" keyword - trhis value can be used in the pace where the function is called. 
+
+Question 14:
+Do functions have to accept parameters and return values?
+No.
+
+
+
+
+
+
+
+
 
 
 

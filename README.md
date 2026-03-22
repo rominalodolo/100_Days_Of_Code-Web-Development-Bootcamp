@@ -842,6 +842,7 @@ Common Methods and Properties
    - document.title, document.URL, document.body: Access document metadata and core elements.
 
 
+<img width="550" height="850" alt="image" src="https://github.com/user-attachments/assets/16a584fe-a236-469b-98da-2b26ae33ed86" />
 
 
 

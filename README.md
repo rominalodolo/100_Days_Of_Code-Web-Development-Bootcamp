@@ -864,7 +864,7 @@ document.getElementsByTagName('tag'): Selects all HTML elements that are of the 
 Doing the exercise: 
 <img width="1512" height="882" alt="image" src="https://github.com/user-attachments/assets/2bdb98b7-df5e-4c8a-8d6a-cc0781d3fb7b" />
 
-
+<img width="1512" height="882" alt="image" src="https://github.com/user-attachments/assets/bb443fc8-a43b-46fd-992d-6f89e0095e52" />
 
 
 

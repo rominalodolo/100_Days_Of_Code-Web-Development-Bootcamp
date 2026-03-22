@@ -687,7 +687,7 @@ Especially the '2' case is important: It looks like a number to us humans - and 
 Why does that matter?
 
 It matters once you start performing operations with the operators mentioned above. Here are some example code snippets and the results that would be produced by them (you can test them all in the JavaScript console in the developer tools of your browser):
-
+```
 let a = 'hi' + ' there'; // 'hi there' => a string
 let b = 'the number' + ' 2'; // 'the number 2' => a string
 let c = 'the number' + 2; // 'the number2' => a string
@@ -696,7 +696,7 @@ let e = 2 + '2'; // '22' => a string! (i.e. the number 2 is treated like a strin
 let f = '2' + '2'; // '22' => a string! ('2' and '2' concatenated)
 let g = '2' * 3; // 6 => a number
 If you go through the above examples, there might be some code lines that you maybe didn't expect to produce the results they do produce.
-
+```
 Especially e, f and g can be confusing.
 
 But it's less confusing if you keep in mind, that values do have certain value types. If you wrap something with quotes (double or single quotes, doesn't matter), it's a string. Even if it looks like a number to us.
@@ -710,8 +710,35 @@ If it would fail to convert the string to a number (e.g. because you tried 'hi' 
 There are other value types as well (objects, arrays, functions and more) but numbers and strings are the most important ones right now and we'll explore more values and value types throughout the course!
 
 
+Splitting JavaScript Code Across Multiple Files [Day 33]
+In this module (and also in the next module), we always work on one *.js file only and we only include (link) one *.js file at the same time to our HTML file.
 
+That's not a must-do though!
 
+If you build more complex websites, that might required different scripts that do different things, you can absolutely include multiple, separate script files into one and the same *.html file.
+
+You can simply add multiple <script src="..."> elements into your HTML document:
+```
+<head>
+    <script src="first-script.js"></script>
+    <script src="second-script.js"></script>
+</head>
+</body>
+...
+    <script src="third-script.js"></script>
+</body>
+```
+The linked scripts will be parsed and executed in the order you defined in the HTML file. It also doesn't matter whether you link them in your <head> section or your <body> section (or if you do both, as shown in this example).
+
+You can also define functions or variable in file A and use them in file B, though you should make sure that the file where you define them is included (linked) before the file where you use them.
+
+So in the example above, we could define a variable in first-script.js:
+```
+let myName = 'Max';
+and then use it in second-script.js:
+
+console.log(myName);
+```
 
 
 

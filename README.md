@@ -824,10 +824,22 @@ To show all functions and different
 alert();
 window.alert();
 
-Means the same thing: 
+Means the same thing
+
+DOM: Document Object Model 
 <img width="1200" height="1000" alt="image" src="https://github.com/user-attachments/assets/fe4934bf-b56e-4fdd-b57c-fe70d44d605e" />
 
-
+Common Methods and Properties
+- window object methods/properties:
+    - alert(), confirm(), prompt(): Display dialog boxes.
+    - setTimeout(), setInterval(): Handle time-based events.
+    - open(), close(): Control browser windows/tabs.
+    - window.location, window.history, window.navigator, window.innerHeight, window.innerWidth: Provide browser information.
+- document object methods/properties:
+    - getElementById(), querySelector(), getElementsByClassName(): Select HTML elements.
+    - createElement(), appendChild(): Create and add new elements to the DOM.
+    - addEventListener(): Attach event handlers to elements.
+   - document.title, document.URL, document.body: Access document metadata and core elements.
 
 
 

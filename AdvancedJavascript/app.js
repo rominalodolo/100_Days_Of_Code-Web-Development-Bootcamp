@@ -1,4 +1,4 @@
 console.log(window);
 
-alert();
-window.alert();
+// alert();
+// window.alert();

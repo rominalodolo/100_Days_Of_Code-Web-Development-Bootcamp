@@ -861,7 +861,8 @@ document.getElementsByClassName('some-css-class'): Selects all HTML elements tha
 document.getElementsByTagName('tag'): Selects all HTML elements that are of the provided HTML tag type
 
 
-
+Doing the exercise: 
+<img width="1512" height="882" alt="image" src="https://github.com/user-attachments/assets/2bdb98b7-df5e-4c8a-8d6a-cc0781d3fb7b" />
 
 
 

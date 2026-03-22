@@ -814,11 +814,18 @@ No.
 
 
 
+## Advanced javascript
+
+To show all functions and different 
+`console.log(window);`
+<img width="1512" height="882" alt="image" src="https://github.com/user-attachments/assets/72455caf-72b4-4af4-9618-cfde76170d10" />
 
 
+alert();
+window.alert();
 
-
-
+Means the same thing: 
+<img width="1200" height="1000" alt="image" src="https://github.com/user-attachments/assets/fe4934bf-b56e-4fdd-b57c-fe70d44d605e" />
 
 
 

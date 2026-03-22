@@ -741,6 +741,61 @@ console.log(myName);
 ```
 
 
+Learning Check: JavaScript Basics [Day 33]
+Quiz 5|14 questions
+JavaScript is a key programming language as a web developer and even though we haven't written to much useful or realistic code yet, we did have a thorough first look at the most important basics. Hence it's time to check your knowledge!
+
+Question 1:
+What's does JavaScript do, what HTML and CSS can't do?
+Add interactive behaviour to the page, eg. chage content of styles AFTER the page has loaded.
+
+Question 2:
+How is JavaScript code added to a webpage?
+Via the <script> element - either by adding code inside of it or by linking external code file with src attribute. 
+
+Question 3:
+What's a "value" in JavaScript?
+a piece of data that can be stored in a variable, passed to a function, or otherwise manipulated by a program
+Values are data like numbers or strings which you use in operations. 
+
+Question 4:
+What are variables?
+Varlables are data containers that can store values so that they can be used multiple times and in other "code lines".
+
+Question 5:
+Do you need to use variables?
+No
+
+Question 6:
+What's an "object" in JavaScript?
+A group of "typically" related values where every value is stored as a so-called "property" 
+
+Question 7:
+What's an "array" in JavaScript?
+A list of related values that can assecced via their index. STrats at 0. 
+
+Question 8:
+What are "functions"?
+
+(pick the best and most precise definition / answer)
+
+Built-in or custom commands that you can use in your code to perfrom clearly defined tasks. Reusable and used multiple times. 
+
+Question 9:
+Which of the below snippets defines ("creates") a function correctly?
+```
+finction greatUser() {
+console.long("Hi there!");
+}
+```
+
+Question 10:
+Which statement about function is WRONG?
+
+
+
+
+
 
 
 

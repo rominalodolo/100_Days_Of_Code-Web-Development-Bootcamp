@@ -866,6 +866,7 @@ Doing the exercise:
 
 <img width="1512" height="882" alt="image" src="https://github.com/user-attachments/assets/bb443fc8-a43b-46fd-992d-6f89e0095e52" />
 
+
 Quiz:
 
 Question 1:
@@ -895,6 +896,29 @@ the <span> in <p class="highloghted"> This is <span> imporgant</span> </p>
 Question 7:
 Why would you ever use document.createElement() for creating a new element, if you could use innerHTML instead?
 document.createElement() gives you direct access to the created element - you can use that to configure it via it's props and methods eg event listeners.  
+
+
+Quiz:
+
+Question 1:
+Why is this code wrong?
+
+`.addEventListener('click', doSomething())`
+doSomething should NOT be executed here - instead - point at it
+
+Question 2:
+Why do we only "point at a function" when using addEventListener?
+Function should be executed by broswer
+
+Question 3:
+Which default parameter do you get in all your functions that are connected via addEventListener?
+An object describing the event that occured. 
+
+
+
+
+
+
 
 
 

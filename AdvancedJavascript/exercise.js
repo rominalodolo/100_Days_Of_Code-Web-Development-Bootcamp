@@ -34,3 +34,5 @@ console.dir(cute);
 
 // 5. BONUS TASK: Try changing the text content of the <p> element
 //    you selected in (4) and set it to any other text of your choice
+
+cute.textContent = 'You are cute!';

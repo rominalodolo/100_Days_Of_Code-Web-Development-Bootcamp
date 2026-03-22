@@ -866,6 +866,41 @@ Doing the exercise:
 
 <img width="1512" height="882" alt="image" src="https://github.com/user-attachments/assets/bb443fc8-a43b-46fd-992d-6f89e0095e52" />
 
+Quiz:
+
+Question 1:
+What is "the DOM"?
+A representation of the parsed HTML and CSS content that can be queried or manipulated with javascript.
+
+Question 2:
+Why does this "DOM" concept exist? 
+Via the DOM our js code is able to query read or manipulate what's displayedon the screen - this allows us to build interactive websites.
+
+Question 3:
+What is "DOM drilling"?
+The act of navigating the DOM via properties of DOM objects, eg. (firstElementChild)
+
+Question 4:
+What's the difference between text nodes and HTML element objects?
+Text nodes are just the text content of an HTML element object (including of nested elements)
+
+Question 5:
+How does document.querySelector('...') work?
+It selects the first element that matches the provided css selector
+
+Question 6:
+Which of the following elements would document.querySelector('.highlighted span') select?
+the <span> in <p class="highloghted"> This is <span> imporgant</span> </p>
+
+Question 7:
+Why would you ever use document.createElement() for creating a new element, if you could use innerHTML instead?
+document.createElement() gives you direct access to the created element - you can use that to configure it via it's props and methods eg event listeners.  
+
+
+
+
+
+
 
 
 

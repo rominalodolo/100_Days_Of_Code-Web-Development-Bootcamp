@@ -39,6 +39,9 @@ secondButton.addEventListener('click', changeBackgroundColor);
 //      mentioned elements
 //    - If you struggle with DOM drilling, use "ids" instead but watch the solution!
 
+const firstParagraph = document.body.children[2].children[1];
+console.log(firstParagraph);
+const thirdParagraph = document.body.children[1].children[2];
 
 // 4) Change the functions from (2) such that:
 //    - The first button removes the third paragraph (i.e. the <p> prior to it)

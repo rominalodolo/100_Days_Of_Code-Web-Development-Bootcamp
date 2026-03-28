@@ -921,7 +921,11 @@ Section 12
 ![alt text](image.png)
 ![alt text](image-1.png)
 
-
+```
+const firstParagraph = document.body.children[2].children[1];
+console.log(firstParagraph);
+```
+![alt text](image-2.png)
 
 
 

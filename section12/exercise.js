@@ -50,9 +50,19 @@ console.log(thirdParagraph);
 
 // 4) Change the functions from (2) such that:
 //    - The first button removes the third paragraph (i.e. the <p> prior to it)
-//    - The second button changes the background color of the first paragraph to blue
+//    - The second button changes the background color of the first paragraph to pink
 
+function removeThirdParagraph() {
+    thirdParagraph.remove();
+    }
+
+function changeBackgroundColor() {
+    firstParagraph.style.backgroundColor = 'pink';
+    // Alternative way to change the background color:
+    // firstParagraph.classList.add('bg-color');
+    }   
 
 
 // 5) Solve (4) both by changing the "inline styles" as well as by adding CSS classes
 //    Note: You'll have to add those classes to the styles.css file first!
+

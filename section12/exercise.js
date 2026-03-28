@@ -17,14 +17,21 @@ function firstButtonClickHandler() {
     console.dir(firstButton);
     }
 
-function secondButtonClickHandler() {
-    console.dir(secondButton);
+function secondButtonClickHandler(event) {
+    console.dir(event.target);
     }
 
-function changeBackgroundColor() {}
+function removeThirdParagraph() {
+    const thirdParagraph = document.querySelector('p:last-of-type');
+    thirdParagraph.remove();
+    }
 
-firstButton.addEventListener('click', firstButtonClickHandler);
-secondButton.addEventListener('click', secondButtonClickHandler);
+function changeBackgroundColor() {
+    secondButton.style.backgroundColor = '#0000ff';
+    }
+
+firstButton.addEventListener('click', removeThirdParagraph);
+secondButton.addEventListener('click', changeBackgroundColor);
 
 // 3) Now select and store the paragraphs mentioned in the text you see on the page
 //    (first and third paragraph)

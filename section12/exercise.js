@@ -41,11 +41,18 @@ secondButton.addEventListener('click', changeBackgroundColor);
 
 const firstParagraph = document.body.children[2].children[1];
 console.log(firstParagraph);
-const thirdParagraph = document.body.children[2].children[3];
+ const thirdParagraph = document.body.children[2].children[3];
+// Alternative way to select the third paragraph:
+// const thirdParagraph = document.querySelector('p:last-of-type');
+// const thirdParagraph = document.querySelector('section').children[3];
+// const thirdParagraph = firstParagraph.nextElementSibling.nextElementSibling;
 console.log(thirdParagraph);
 
 // 4) Change the functions from (2) such that:
 //    - The first button removes the third paragraph (i.e. the <p> prior to it)
 //    - The second button changes the background color of the first paragraph to blue
+
+
+
 // 5) Solve (4) both by changing the "inline styles" as well as by adding CSS classes
 //    Note: You'll have to add those classes to the styles.css file first!

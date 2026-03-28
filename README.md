@@ -929,6 +929,13 @@ console.log(firstParagraph);
 
 
 
+### Learning Check: "if" Statements [Day 38]
+
+Question 1:
+What are boolean values ("Booleans")?
+A value that ly knows true false. useful for if statemnets 
+
+
 
 
 

@@ -21,14 +21,18 @@ function secondButtonClickHandler() {
     console.dir(secondButton);
     }
 
-    firstButton.addEventListener('click', firstButtonClickHandler);
-    secondButton.addEventListener('click', secondButtonClickHandler);
+function changeBackgroundColor() {}
+
+firstButton.addEventListener('click', firstButtonClickHandler);
+secondButton.addEventListener('click', secondButtonClickHandler);
 
 // 3) Now select and store the paragraphs mentioned in the text you see on the page
 //    (first and third paragraph)
 //    - Select BOTH paragraphs by drilling into the document and "navigating" to the
 //      mentioned elements
 //    - If you struggle with DOM drilling, use "ids" instead but watch the solution!
+
+
 // 4) Change the functions from (2) such that:
 //    - The first button removes the third paragraph (i.e. the <p> prior to it)
 //    - The second button changes the background color of the first paragraph to blue

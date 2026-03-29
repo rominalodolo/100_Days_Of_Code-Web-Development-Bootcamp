@@ -15,3 +15,10 @@ html[lang="ko"] {
 html[lang="en"] {
   font-family: 'Arial', sans-serif;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  color: rgb(41, 38, 41);
+  background-color: rgb(222, 176, 211);
+}

@@ -931,13 +931,40 @@ console.log(firstParagraph);
 
 ### Learning Check: "if" Statements [Day 38]
 
-Question 1:
+**Question 1:**
 What are boolean values ("Booleans")?
 A value that ly knows true false. Useful for if statemnets 
 
-Question 2:
+**Question 2:**
 What's the idea behind "if" statements?
 Controls if some code is executed or not
+
+**Question 3:**
+Given the below code, what would be the output you get in the console?
+
+```
+const userAge = 52;
+if (userAge > 60 && userAge < 100) {
+    console.log('User is in our target customer group!');
+} else if (userAge < 30) {
+    console.log('User is a potential future customer.');
+} else {
+    console.log('User is also an interesting customer!');
+}
+```
+
+Answer: User is also an interesting customer!
+
+
+**Question 4:**
+What's the idea behind "comparison operators" like == or <?
+These operators can be used to erive boolean values from other values. 
+
+
+**Question 5:**
+What's the difference between the == and === operators?
+=== compares alues and types, == compares values only 
+
 
 
 

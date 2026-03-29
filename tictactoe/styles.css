@@ -1,0 +1,17 @@
+/* Hide Korean when English is active */
+html[lang="en"] .ko {
+  display: none;
+}
+
+/* Hide English when Korean is active */
+html[lang="ko"] .en {
+  display: none;
+}
+
+html[lang="ko"] {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+html[lang="en"] {
+  font-family: 'Arial', sans-serif;
+}

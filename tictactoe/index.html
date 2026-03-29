@@ -9,21 +9,25 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <title>Tic Tac Toe</title>
+        <script src="app.js" defer></script>
+        <link rel="stylesheet" href="style.css">
+    <title class="en">Tic Tac Toe</title>
+    <title class="ko">삼목 게임</title>
 </head>
 
 <body>
     <header>
-        <button id="languageToggle">Switch Language</button>
-        <h1 class="english">Tic Tac Toe</h1>
-        <h1 class="korean" style="display: none;">삼목 게임</h1>
-        <p class="english">This is a Tic Tac Toe game.</p>
-        <p class="korean" style="display: none;">이것은 틱택토 게임입니다.</p>
+        <button id="toggleLang">🌐</button>
+        <h1 class="en">Tic Tac Toe</h1>
+        <h1 class="ko">삼목 게임</h1>
+        <p class="en">This is a Tic Tac Toe game.</p>
+        <p class="ko">이것은 틱택토 게임입니다.</p>
         <p>Click on the boxes to play the game. The first player to get three in a row wins!</p>
 
     </header>
     <aside class="modal" id="config-overlay">
         <h2>Choose your name</h2>
+        <h2>이름을 선택하세요</h2>
 
         <form>
             <div class="form-control">

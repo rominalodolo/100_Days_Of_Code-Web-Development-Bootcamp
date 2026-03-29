@@ -1,9 +1,8 @@
 .modal {
     position: fixed;
-    top: 20%;
-    left: 5%;
-    width: 90%;
-    justify-content: center;
+    top: 20% !important;
+    left: 5% !important;
+    width: 90% !important;
     background-color: rgb(58, 49, 63);
     padding: 1rem;
     border-radius: 6px;
@@ -13,9 +12,9 @@
 
 @media (min-width: 48rem) {
     .modal {
-        left: calc(50% -20rem);
-        width: 40rem;
-    }
+        left: calc(50% -20rem) !important;
+        width: 40rem !important;
+        }
 }
 
 #backdrop {

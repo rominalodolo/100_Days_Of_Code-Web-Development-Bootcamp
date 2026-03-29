@@ -40,7 +40,7 @@ html[lang="en"] {
 body {
   margin: 0;
   padding: 0;
-  color: rgb(41, 38, 41);
+  color: rgb(255, 233, 255);
   background-color: rgb(47, 47, 47);
 }
 
@@ -99,4 +99,35 @@ body {
   background-color: rgb(200, 160, 190);
   color: #fff;
   transform: scale(0.95);
+}
+
+/* Small cute Edit button */
+#edit-player1, #edit-player2 {
+  background-color: rgb(222, 176, 211); /* baby pink */
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 0.3rem 0.6rem; /* smaller size */
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Add hover pop effect */
+#edit-player1:hover, #edit-player2:hover {
+  background-color: rgb(240, 190, 220); /* lighter pink */
+  transform: scale(1.05);
+}
+
+/* Pressed effect */
+#edit-player1:active, #edit-player2:active {
+  background-color: rgb(200, 160, 190); /* darker pink */
+  transform: scale(0.95);
+}
+
+/* Add bow emoji automatically before button text */
+#edit-player1::before, #edit-player2::before {
+  content: "🎀 ";
 }

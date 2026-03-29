@@ -933,7 +933,7 @@ console.log(firstParagraph);
 
 **Question 1:**
 What are boolean values ("Booleans")?
-A value that ly knows true false. Useful for if statemnets 
+A value that only knows true false. Useful for if statemnets 
 
 **Question 2:**
 What's the idea behind "if" statements?
@@ -958,7 +958,7 @@ Answer: User is also an interesting customer!
 
 **Question 4:**
 What's the idea behind "comparison operators" like == or <?
-These operators can be used to erive boolean values from other values. 
+These operators can be used to derive boolean values from other values. 
 
 
 **Question 5:**

@@ -9,16 +9,44 @@ html[lang="ko"] .en {
 }
 
 html[lang="ko"] {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 html[lang="en"] {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
+}
+#toggleLang {
+  background-color: rgb(222, 176, 211); /* baby pink */
+  color: #fff; /* white text for contrast */
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 12px; /* soft rounded corners */
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* subtle shadow for depth */
+}
+
+#toggleLang:hover {
+  background-color: rgb(240, 190, 220); /* slightly lighter on hover */
+  transform: scale(1.05); /* cute little pop */
+}
+
+#toggleLang:active {
+  background-color: rgb(200, 160, 190); /* slightly darker when clicked */
+  transform: scale(0.95);
 }
 
 body {
   margin: 0;
   padding: 0;
   color: rgb(41, 38, 41);
-  background-color: rgb(222, 176, 211);
+  background-color: rgb(47, 47, 47);
+}
+
+#main-header {
+  color: rgb(222, 176, 211);
+  text-shadow: 1px 1px 2px rgb(48, 48, 48);
+  text-align: center;
+  padding: 2rem 5%;
 }

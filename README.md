@@ -982,23 +982,35 @@ Years ago, we didn't have the for-of loop in JavaScript.
 
 To still loop through all the elements of an array, this code could be used:
 
+```
 for (let i = 0; i < someArray.length; i++) {
     console.log(someArray[i]);
 }
+``` 
 This code still works today and you can absolutely use it instead of using a for-of loop. But of course it's longer and a bit more clunky, so there is no strong reason to use that code, unless you prefer it.
 
 
+Quiz
 
+**Question 1:**
+What's the idea behind "loops" in JavaScript?
+Loops allow you to execute code multiple times
 
+**Question 2:**
+How does the "regular for loop" work?
+You have a helper variable and keep on looping as long as that variable is meeting some condition. The variable also comes with every iteration. 
 
+**Question 3:**
+What does the for-of loop allow you to do?
+You can use the for-of loop to loop through all the elements of an array.
 
+**Question 4:**
+What does the for-in loop allow you to do?
+You can use a for-in loop to loop through all the properties of an object.
 
-
-
-
-
-
-
+**Question 5:**
+What's the idea behind the "while" loop?
+You keep on iterating ("looping") until a certain condition is NOT met anymore. 
 
 
 

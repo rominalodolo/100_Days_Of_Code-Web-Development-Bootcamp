@@ -933,7 +933,13 @@ console.log(firstParagraph);
 
 Question 1:
 What are boolean values ("Booleans")?
-A value that ly knows true false. useful for if statemnets 
+A value that ly knows true false. Useful for if statemnets 
+
+Question 2:
+What's the idea behind "if" statements?
+Controls if some code is executed or not
+
+
 
 
 

@@ -966,9 +966,14 @@ What's the difference between the == and === operators?
 === compares alues and types, == compares values only 
 
 
+**Question 6:**
+What's the idea behind "logical operators" like && or ||?
+You can combine multiple boolean values and derive a new boolean value 
 
 
-
+**Question 7:**
+What's the idea behind "truthy" and "falsy" values?
+In places, where a boolean is expected JS tries to "convert" non-boolean values to "truthy"/"falsy" values.
 
 
 

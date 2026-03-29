@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <title>Tic Tac Toe</title>
 </head>
+
 <body>
     <header>
         <h1>Tic Tac Toe</h1>
@@ -13,25 +20,26 @@
     <aside class="modal" id="config-overlay">
         <h2>Choose your name</h2>
 
-       <form>
-          <div class="form-control">
-            <label for="playername">Player name</label>
-            <input type="text" name="playername" id="playername" />
-          </div>
-          <div>
-            <button type="button" class="btn btn-alt">Cancel</button>
-            <button type="submit" class="btn">Confirm</button>
-          </div>
+        <form>
+            <div class="form-control">
+                <label for="playername">Player name</label>
+                <input type="text" name="playername" id="playername" />
+            </div>
+            <div>
+                <button type="button" class="btn btn-alt">Cancel</button>
+                <button type="submit" class="btn">Confirm</button>
+            </div>
         </form>
-      </aside>
+    </aside>
     <main>
         <section id="game-status">
             <ol>
-                <li> 
+                <li>
                     <article>
                         <h2>Player 1</h2>
                         <h3>Player name</h3>
-                        <p>Player 1 is the first player. They will use the "X" symbol to mark their moves on the game board.</p>
+                        <p>Player 1 is the first player. They will use the "X" symbol to mark their moves on the game
+                            board.</p>
                         <button id="edit-player1">Edit</button>
                     </article>
                 </li>
@@ -39,7 +47,8 @@
                     <article>
                         <h2>Player 2</h2>
                         <h3>Player name</h3>
-                        <p>Player 2 is the second player. They will use the "O" symbol to mark their moves on the game board.</p>
+                        <p>Player 2 is the second player. They will use the "O" symbol to mark their moves on the game
+                            board.</p>
                         <button id="edit-player2">Edit</button>
                     </article>
                 </li>
@@ -48,32 +57,33 @@
         </section>
 
 
-    <section id="active-game">
-        <article id="game-over">
-          <h2>You won, <span id="winner-name">PLAYER NAME</span>!</h2>
-          <p>Click "Start New Game" above, to start a new game!</p>
-        </article>
+        <section id="active-game">
+            <article id="game-over">
+                <h2>You won, <span id="winner-name">PLAYER NAME</span>!</h2>
+                <p>Click "Start New Game" above, to start a new game!</p>
+            </article>
 
-       <section id="active-game">
-        <article id="game-over">
-          <h2>You won, <span id="winner-name">PLAYER NAME</span>!</h2>
-          <p>Click "Start New Game" above, to start a new game!</p>
-        </article>
+            <section id="active-game">
+                <article id="game-over">
+                    <h2>You won, <span id="winner-name">PLAYER NAME</span>!</h2>
+                    <p>Click "Start New Game" above, to start a new game!</p>
+                </article>
 
-        <p>It's your turn <span id="active-player-name">PLAYER NAME</span>!</p>
-        <ol id="game-board">
-          <li class="disabled">X</li>
-          <li></li>
-          <li class="disabled">O</li>
+                <p>It's your turn <span id="active-player-name">PLAYER NAME</span>!</p>
+                <ol id="game-board">
+                    <li class="disabled">X</li>
+                    <li></li>
+                    <li class="disabled">O</li>
 
-          <li></li>
-          <li class="disabled">X</li>
-          <li></li>
+                    <li></li>
+                    <li class="disabled">X</li>
+                    <li></li>
 
-          <li class="disabled">O</li>
-          <li></li>
-          <li></li>
-        </ol>
-    </section>
+                    <li class="disabled">O</li>
+                    <li></li>
+                    <li></li>
+                </ol>
+            </section>
 </body>
+
 </html>

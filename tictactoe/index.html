@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <header>
+        <h1>Tic Tac Toe</h1>
+        <p>Click on the boxes to play the game. The first player to get three in a row wins!</p>
+    </header>
+    <main>
+        <section id="game-status">
+            <ol>
+                <li> 
+                    <article>
+                        <h2>Player 1</h2>
+                        <h3>Player name</h3>
+                        <p>Player 1 is the first player. They will use the "X" symbol to mark their moves on the game board.</p>
+                        <button id="edit-player1">Edit</button>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h2>Player 2</h2>
+                        <h3>Player name</h3>
+                        <p>Player 2 is the second player. They will use the "O" symbol to mark their moves on the game board.</p>
+                        <button id="edit-player2">Edit</button>
+                    </article>
+                </li>
+            </ol>
+            <button id="start-button">Start Game</button>
+        </section>
+        <div id="active-game">
+            <div class="box" data-index="0"></div>
+            <div class="box" data-index="1"></div>
+            <div class="box" data-index="2"></div>
+            <div class="box" data-index="3"></div>
+            <div class="box" data-index="4"></div>
+            <div class="box" data-index="5"></div>
+            <div class="box" data-index="6"></div>
+            <div class="box" data-index="7"></div>
+            <div class="box" data-index="8"></div>
+        </div>
+        <button id="reset-button">Reset Game</button>
+</body>
+</html>

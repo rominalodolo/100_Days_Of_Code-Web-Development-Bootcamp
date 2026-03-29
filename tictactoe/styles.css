@@ -50,3 +50,53 @@ body {
   text-align: center;
   padding: 2rem 5%;
 }
+
+
+/* Base button style */
+.btn {
+  background-color: rgb(222, 176, 211); /* baby pink */
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+/* Hover effect: lighter pink & pop */
+.btn:hover {
+  background-color: rgb(240, 190, 220);
+  transform: scale(1.05);
+}
+
+/* Active effect: slightly darker & pressed */
+.btn:active {
+  background-color: rgb(200, 160, 190);
+  transform: scale(0.95);
+}
+
+/* Alternate button style: outline / softer vibe */
+.btn-alt {
+  background-color: transparent;
+  color: rgb(222, 176, 211);
+  border: 2px solid rgb(222, 176, 211);
+  border-radius: 12px;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-alt:hover {
+  background-color: rgb(222, 176, 211);
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.btn-alt:active {
+  background-color: rgb(200, 160, 190);
+  color: #fff;
+  transform: scale(0.95);
+}

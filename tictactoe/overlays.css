@@ -1,18 +1,21 @@
+/* OVERLAYS CSS */
+
+/* --------------------
+   Modal Container
+-------------------- */
 .modal {
     position: fixed;
-    top: 20% !important;
-    left: 5% !important;
-    width: 90% !important;
-    background-color: rgb(58, 49, 63);
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 1rem;
-    border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-    /* display: none; */
+    z-index: 100;
 }
 
 @media (min-width: 48rem) {
     .modal {
-        left: calc(50% -20rem) !important;
+        left: calc(50% - 20rem) !important;
         width: 40rem !important;
         }
 }
@@ -24,5 +27,118 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.7);
+    backdrop-filter: blur(12px);
     /* display: none; */
 }
+
+/* --------------------
+   Card / Modal Container
+-------------------- */
+.modal-card {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 1rem;
+  padding: 2rem;
+  border: 1px solid rgba(78, 68, 74, 0.2);
+  position: relative;
+}
+
+
+/* --------------------
+   Utility Classes
+-------------------- */
+.glass-panel {
+  background: rgba(31, 32, 32, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.shadow-pink-glow {
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.4),
+    0 0 20px rgba(231, 185, 220, 0.15);
+}
+
+/* Close button */
+.material-symbols-outlined {
+  font-variation-settings: 
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+/* Close button */
+#close-config {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+
+  color: var(--color-text-muted);
+  transition: all 0.2s ease;
+}
+
+#close-config:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--color-primary);
+}
+
+
+/* --------------------
+   Header
+-------------------- */
+.modal-header h2 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: 0.25rem;
+}
+
+.modal-header .ko {
+  font-size: 0.85rem;
+  opacity: 0.6;
+}
+
+/* --------------------
+   Form
+-------------------- */
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin: 1.5rem 0;
+}
+
+.form-control label {
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+/* --------------------
+   Buttons
+-------------------- */
+.modal-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.modal-actions .en,
+.modal-actions .ko {
+  display: flex;
+  gap: 0.5rem;
+}
+

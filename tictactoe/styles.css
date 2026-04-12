@@ -50,11 +50,9 @@ html[lang="en"] {
 -------------------- */
 body {
   margin: 0;
-  padding: 0;
   background: var(--color-surface);
   color: var(--color-text);
   font-family: 'Be Vietnam Pro', sans-serif;
-  overflow: hidden;
 }
 
 #toggleLang {
@@ -143,12 +141,12 @@ body {
 }
 
 /* Small cute Edit button */
-#edit-player1, #edit-player2 {
-  background-color: rgb(222, 176, 211); /* baby pink */
-  color: #fff;
-  border: none;
-  border-radius: 10px;
-  padding: 0.3rem 0.6rem; /* smaller size */
+#edit-player-1-btn, #edit-player-2-btn {
+  background: var(--color-surface-highest);
+  border: 1px solid var(--color-outline-variant);
+  color: var(--color-primary);
+  border-radius: 9999px;
+  padding: 0.5rem;
   font-size: 0.9rem;
   cursor: pointer;
   font-weight: 600;
@@ -157,22 +155,178 @@ body {
 }
 
 /* Add hover pop effect */
-#edit-player1:hover, #edit-player2:hover {
-  background-color: rgb(240, 190, 220); /* lighter pink */
+#edit-player-1-btn:hover, #edit-player-2-btn:hover {
+  background-color: var(--color-outline-variant); /* lighter pink */
   transform: scale(1.05);
 }
 
 /* Pressed effect */
-#edit-player1:active, #edit-player2:active {
-  background-color: rgb(200, 160, 190); /* darker pink */
+#edit-player-1-btn:active, #edit-player-2-btn:active {
+  background-color: var(--color-surface-variant); 
   transform: scale(0.95);
 }
 
-/* Add bow emoji automatically before button text */
-#edit-player1::before, #edit-player2::before {
-  content: "🎀 ";
+/* Add bow emoji automatically after button text */
+#edit-player-1-btn::after, #edit-player-2-btn::after {
+  content: " 🎀 ";
 }
 
 .game-grid-gap {
   gap: 1rem;
+}
+
+
+
+/* clean up  */
+/* --------------------
+   Layout
+-------------------- */
+.players-list {
+  list-style: none;
+  padding: 0;
+  margin: 3rem auto;
+  max-width: 400px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* --------------------
+   Card
+-------------------- */
+.player-card {
+  background: var(--color-surface-high);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+/* hover like Tailwind group-hover */
+.player-card:hover {
+  background: var(--color-surface-highest);
+}
+
+/* 🎀 corner icon */
+.player-card::after {
+  content: "🎀";
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  opacity: 0.2;
+  transition: 0.3s ease;
+}
+
+.player-card:hover::after {
+  opacity: 1;
+}
+
+/* --------------------
+   Header
+-------------------- */
+.player-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Avatar circle */
+.player-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+/* X style */
+.player-x {
+  background: rgba(251, 203, 239, 0.2);
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
+/* O style */
+.player-o {
+  background: var(--color-surface-variant);
+  border: 2px solid var(--color-outline-variant);
+  color: var(--color-text-muted);
+}
+
+/* --------------------
+   Text
+-------------------- */
+.player-card h2 {
+  margin: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: bold;
+}
+
+.player-role {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  opacity: 0.7;
+}
+
+.player-description {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  opacity: 0.6;
+  margin-bottom: 1rem;
+}
+
+/* --------------------
+   Button
+-------------------- */
+.btn-edit {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+
+  background: var(--color-surface-highest);
+  color: var(--color-primary);
+
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  transition: all 0.3s ease;
+}
+
+.btn-edit:hover {
+  background: var(--color-primary);
+  color: #462541;
+}
+
+/* --------------------
+   Active Player Glow
+-------------------- */
+.player-card.active::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+
+  background: var(--color-primary);
+  box-shadow: 0 0 15px rgba(251, 203, 239, 0.5);
 }

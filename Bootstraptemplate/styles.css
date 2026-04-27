@@ -1,91 +1,62 @@
- body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #f8f9fb;
-    }
-
-    /* Navbar */
-    .navbar {
-      background: rgba(10, 25, 47, 0.95);
-    }
-
-    .navbar-brand {
-      color: #d4af37 !important;
-      font-weight: 600;
-    }
-
-    .nav-link {
-      color: #ffffff !important;
-    }
-
-    /* Hero */
-    .hero {
-      background: linear-gradient(135deg, #0a192f, #1c3d5a);
-      color: white;
-      padding: 120px 0;
-      text-align: center;
-    }
-
-    .hero h1 {
-      font-size: 3rem;
-      font-weight: 600;
-    }
-
-    .btn-gold {
-      background: #d4af37;
-      color: #0a192f;
-      border: none;
-    }
+body {
 
     .btn-gold:hover {
-      background: #c39c2f;
+      background-color: #c19b2e;
     }
 
     /* Flip Cards */
     .flip-card {
       perspective: 1000px;
+      height: 250px;
     }
 
     .flip-card-inner {
       position: relative;
       width: 100%;
-      height: 250px;
-      transform-style: preserve-3d;
+      height: 100%;
       transition: transform 0.6s;
+      transform-style: preserve-3d;
     }
 
     .flip-card:hover .flip-card-inner {
       transform: rotateY(180deg);
     }
 
-    .flip-card-front, .flip-card-back {
+    .flip-card-front,
+    .flip-card-back {
       position: absolute;
       width: 100%;
       height: 100%;
       backface-visibility: hidden;
-      border-radius: 10px;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       padding: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
     }
 
     .flip-card-front {
-      background: white;
+      background: #fff;
     }
 
     .flip-card-back {
-      background: #0a192f;
-      color: white;
+      background: #0b1f3a;
+      color: #fff;
       transform: rotateY(180deg);
     }
 
     /* Signup */
     .signup {
-      background: #1c3d5a;
+      background-color: #163a5f;
       color: white;
-      padding: 60px 0;
+      padding: 80px 0;
     }
 
     /* Footer */
     .footer {
-      background: #0a192f;
+      background-color: #0b1f3a;
       color: white;
       padding: 30px 0;
     }
@@ -93,5 +64,9 @@
     .footer a {
       color: #d4af37;
       text-decoration: none;
+      margin: 0 10px;
     }
-    
+
+    .footer a:hover {
+      text-decoration: underline;
+    }

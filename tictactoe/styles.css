@@ -55,12 +55,23 @@ body {
   font-family: 'Be Vietnam Pro', sans-serif;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5%;
+  background-color: #2a2a2a;
+  align-items: center;
+  height: 40px;
+  border-radius: 25px;
+  box-shadow: #2a2a2a 0px 2px 4px;
+}
+
 #toggleLang {
   background-color: var(--color-primary-container); /* baby pink */
   color: #fff; /* white text for contrast */
   border: none;
   padding: 0.5rem 1rem;
-  border-radius: 12px; /* soft rounded corners */
+  border-radius: 25px; 
   font-size: 1.25rem;
   cursor: pointer;
   transition: all 0.2s ease-in-out;

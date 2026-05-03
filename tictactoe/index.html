@@ -29,13 +29,18 @@
 <body>
     <div id="backdrop"></div>
     <header id="main-header">
-        <button id="toggleLang">🇬🇧/🇰🇷</button>
-        <h1 class="en">Tic Tac Toe</h1>
-        <h1 class="ko">삼목 게임</h1>
+        <div class="navbar">
+            <h1 class="en">Tic Tac Toe</h1>
+            <h1 class="ko">삼목 게임</h1>
+            <button id="toggleLang">🇬🇧/🇰🇷</button>
+        </div>
+        
+    <div>
         <p class="en">This is a Tic Tac Toe game.</p>
         <p class="ko">이것은 틱택토 게임입니다.</p>
         <p class="en">Click on the boxes to play the game. The first player to get three in a row wins!</p>
         <p class="ko">상자를 클릭하여 게임을 플레이하세요. 첫 번째로 세 개를 연속으로 배치한 플레이어가 승리합니다!</p>
+    </div>
     </header>
     <main>
         <aside class="modal" id="config-overlay">

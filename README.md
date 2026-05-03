@@ -1066,7 +1066,7 @@ Get started by including Bootstrap’s production-ready CSS and JavaScript via C
 ```
 
 Bootstrap intro:
-<img width="1134" height="738" alt="image" src="https://github.com/user-attachments/assets/69a996d0-6c1e-4ad2-91e7-8b425d7c525f" />
+<img width="1368" height="786" alt="Screenshot 2026-05-03 at 13 00 09" src="https://github.com/user-attachments/assets/1b7dec34-ebc6-4e21-9817-bdd0641afc52" />
 
 
 Backend introduction: 

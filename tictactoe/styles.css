@@ -96,7 +96,7 @@ body {
   padding: 1rem;
   border-radius: 9999px;
   background: linear-gradient(to right, var(--color-primary), var(--color-primary-container));
-  color: #462541;
+  color: #d05f88;
   font-weight: bold;
   transition: 0.3s ease;
   text-align: center;
@@ -257,9 +257,9 @@ body {
 
 /* O style */
 .player-o {
-  background: var(--color-surface-variant);
-  border: 2px solid var(--color-outline-variant);
-  color: var(--color-text-muted);
+  background: rgba(251, 203, 239, 0.2);
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
 }
 
 /* --------------------

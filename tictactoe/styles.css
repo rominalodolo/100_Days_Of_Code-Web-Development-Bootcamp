@@ -185,11 +185,11 @@ body {
   list-style: none;
   padding: 0;
   margin: 3rem auto;
-  max-width: 400px;
+  max-width: 550px;
 
   display: flex;
-  flex-direction: column;
   gap: 1.5rem;
+  justify-content: center;o
 }
 
 /* --------------------

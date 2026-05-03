@@ -23,7 +23,8 @@
 
 #active-player-name {
   font-weight: bold;
-  color: rgb(50, 5, 87);
+  color: #d05f88;
+  font-size: larger;
 }
 
 #game-board {
@@ -57,3 +58,11 @@
   color: white;
   cursor: default;
 }
+
+/* .game-layout {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem;
+  padding: 0 5%;
+} */

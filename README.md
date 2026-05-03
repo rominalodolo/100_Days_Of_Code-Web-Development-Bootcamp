@@ -1013,6 +1013,17 @@ What's the idea behind the "while" loop?
 You keep on iterating ("looping") until a certain condition is NOT met anymore. 
 
 
+## Tic tac toe game
+
+I made the version of my game 2 different languages so I could test out css classes and I tested using Stitch - googles ai design tool to redesign a version I could use as a template to work from. 
+
+This is currently what the game board looks like as of 3 May 2026: 
+<img width="977" height="470" alt="Screenshot 2026-05-03 at 17 29 40" src="https://github.com/user-attachments/assets/45b607fa-baef-4c19-8f45-715a5f5bf039" />
+<img width="3024" height="2308" alt="screencapture-127-0-0-1-5500-tictactoe-index-html-2026-05-03-17_29_01" src="https://github.com/user-attachments/assets/fea60e2f-a887-4f58-b58c-a68c190b3034" />
+<img width="3024" height="2194" alt="screencapture-127-0-0-1-5500-tictactoe-index-html-2026-05-03-17_28_16" src="https://github.com/user-attachments/assets/852bda96-b0e8-4790-b655-13fd3cd24d37" />
+
+
+
 
 ## Section 15:
 

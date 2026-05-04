@@ -1111,3 +1111,8 @@ A: The serverside code and logic that a websit emight require.
 
 **Question 2:
 Why might a website require a (custom) backend?**
+A: Websites need a backend if they should handle submitted (form) data or render content dynamically.
+
+**Question 3:
+Which example describes a scenario where a (custom) backend is needed (i.e. custom server-side code is needed)?**
+A: 

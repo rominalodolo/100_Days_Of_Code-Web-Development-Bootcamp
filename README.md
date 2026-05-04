@@ -1100,3 +1100,14 @@ BUT a website might need more than that to work correctly! Specifically, as you 
 If you have a website that does require such server-side code in addition to the HTML, CSS & JavaScript instructions that might be sent to the browser, you have a so-called "Dynamic Website" (instead of a "Static Site").
 
 "Dynamic" because the generated HTML code is not always the same.
+
+
+
+Quiz 10: Learning Check: Frontend vs Backend [Day 
+
+**Question 1:
+What does "backend" mean in web development?**
+A: The serverside code and logic that a websit emight require.
+
+**Question 2:
+Why might a website require a (custom) backend?**

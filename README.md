@@ -1115,4 +1115,15 @@ A: Websites need a backend if they should handle submitted (form) data or render
 
 **Question 3:
 Which example describes a scenario where a (custom) backend is needed (i.e. custom server-side code is needed)?**
-A: 
+A: A webiste where users can login and add blog posts 
+
+**Question 4:
+Which programming language can you NOT use for backend development?**
+A: CSS
+
+
+## Section 17: NodeJS intro
+
+[Download](https://nodejs.org/en/download) for mac 
+<img width="1273" height="823" alt="Screenshot 2026-05-04 at 12 00 36" src="https://github.com/user-attachments/assets/baf572ee-d67f-4086-b81b-e1db4e074f41" />
+

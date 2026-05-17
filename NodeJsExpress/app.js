@@ -1,8 +1,7 @@
 const fs = require('fs');
-require path = require('path');
+const path = require('path');
 
 const express = require('express');
-const path = require('path');
 
 const app = express();
 
@@ -26,10 +25,14 @@ app.post('/store-user',function(req, res) {
     const filePath = path.join(__dirname, 'data', 'users.json'); // Define the path to the file where you want to store the username
 
     const fileData = fs.readFileSync(filePath); // Read the existing data from the file
+    const existingUsers = JSON.parse(fileData); // Parse the existing data as JSON
 
-    
+    existingUsers.push(userName); // Add the new username to the array
+
     fs.writeFileSync(filePath, JSON.stringify([userName])); // Write the username to the file (you can modify this to append to an array if you want to store multiple usernames)
-    console.log('Received username:', userName); // Log the username to the console
+
+
+    // console.log('Received username:', userName); // Log the username to the console
     res.send('<h1>Thank you for submitting your name, ' + userName + '!</h1>'); // Send a response back to the client
 });
 

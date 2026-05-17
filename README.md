@@ -112,7 +112,8 @@ For example, if you want to test a different color but not lose your previously 
 
 ```
 p {
-    /* color: red; */
+    /* color: red; */<img width="1050" height="239" alt="Screenshot 2026-05-17 at 19 58 23" src="https://github.com/user-attachments/assets/185dc95e-23c6-485f-a838-f560e7e4aa96" />
+
     color: green;
 }
 ```
@@ -1188,9 +1189,9 @@ Creating a form with express
 
 
 Working app: 
+<img width="1050" height="239" alt="Screenshot 2026-05-17 at 19 58 23" src="https://github.com/user-attachments/assets/f7fb09b8-c02a-4d98-87b0-e0ec6e2e4001" />
 
-
-
+<img width="500" height="215" alt="Screenshot 2026-05-17 at 19 58 43" src="https://github.com/user-attachments/assets/507aff1a-5283-43b8-9560-5909a811f757" />
 
 
 

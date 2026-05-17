@@ -1225,7 +1225,7 @@ Q4: What's the advantage of using ExpressJS instead of "just NodeJS"?
 A: It simplifies the creation of web servers and the handeling of requests and responses 
 
 Q5: What is a "Route"?
-A: A request logic that looks for specific Http menthods (GET, POST) and paths to then execute some logic 
+A: A request handler that looks for specific Http menthods (GET, POST) and paths to then execute some logic 
 
 Q6: What is the "path" of an incoming request?
 A: The part after the domain (and port) - eg /products 

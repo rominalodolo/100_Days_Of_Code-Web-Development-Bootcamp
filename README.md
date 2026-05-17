@@ -1159,9 +1159,33 @@ npm : Node package manager
 `` npm init`` 
 `` npm npm i express`` 
 
-
 Creating a form with express 
 <img width="689" height="187" alt="Screenshot 2026-05-17 at 18 34 33" src="https://github.com/user-attachments/assets/f76b5da5-c0a8-4706-8b9f-179c7a986376" />
+
+### More About The "JSON" Format [Day 49]
+> JSON is an acronym for "JavaScript Object Notation" and it's a standardized way of formatting text data into a machine- and human-readable format.
+
+#### JSON-formatted text data looks like this:
+
+```
+{
+    "username": "Max",
+    "age": 32,
+    "hobbies": ["Sports", "Cooking"],
+    "address": {
+      "city": "Munich",
+      "street: "Some street 5"
+    }
+}
+```
+>> It's called "JavaScript Object Notation" because the formatting resembles the "look" and structure of objects in JavaScript code. Though, it's important to understand that you can work with JSON-formatted data in JavaScript (e.g. you can read or write a file that contains data in that format) BUT it's not JavaScript-exclusive. Instead it's a very common data format for all kinds of use-cases and it's usable in basically all programming languages.
+
+>> Again: The above snippet is some text (NOT JS code!) that contains data which is saved in a structured way (using the JSON structure). Formats like this exist because it allows developers to save and exchange data in standardized, machine-readable ways. Alternative common formats would be XML or Apache Parquet (the latter is primarily used for data science though).
+
+>> A key difference between JS objects inside of JS code and JSON-formatted text data is that key names ("properties") have to be wrapped by double quotes in JSON whereas no quotes are required in JavaScript (though you are allowed to wrap property names between quotes there as well - but it's not a requirement).
+
+>> In addition, string values (i.e. text) have to be "marked" by wrapping them with double quotes as well. In contrast, in JavaScript code, both double and single quotes are allowed.
+
 
 
 

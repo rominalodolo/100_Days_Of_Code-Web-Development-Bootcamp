@@ -1139,6 +1139,19 @@ Q1: What is NodeJS?
 A: NodeJS is a javascript runtime (i.e. tool that executes JS code).
 
 Q2: What changes about your JS code, once you start executing it with NodeJS (instead of in the browser)?
+A: It's the same syntax - it's just some features that are now not available or newly available.
+
+Q3: When using NodeJS in order to handle requests and responses - what do you absolutely have to do?
+A: You need to create a server with javascript. 
+
+Q4: Which statement is true about a web server written with NodeJS, that you then started via the command line?
+A: The process does not finish automatically
+
+
+
+
+
+
 
 
 

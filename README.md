@@ -1209,7 +1209,7 @@ then in terminal : `` npm start ``
 <img width="916" height="917" alt="Screenshot 2026-05-17 at 20 16 26" src="https://github.com/user-attachments/assets/f073bf60-2294-4a59-871f-c537c1996bb2" />
 
 
-Learning Check: ExpressJS Basics [Day 49]
+*Learning Check: ExpressJS Basics [Day 49]*
 Quiz:
 
 Q1: What is Express (or ExpressJS / express.js)?
@@ -1225,6 +1225,15 @@ Q4: What's the advantage of using ExpressJS instead of "just NodeJS"?
 A: It simplifies the creation of web servers and the handeling of requests and responses 
 
 Q5: What is a "Route"?
+A: A request logic that looks for specific Http menthods (GET, POST) and paths to then execute some logic 
+
+Q6: What is the "path" of an incoming request?
+A: The part after the domain (and port) - eg /products 
+
+Q7: What's a "middleware" in ExpressJS?
+A: A request handeler that executes for multiple (or even all) incoming requests. 
+
+
 
 
 

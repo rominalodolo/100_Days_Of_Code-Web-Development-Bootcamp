@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
     });
 
 app.get('/form', (req, res) => {
-    res.send('<form action="/submit" method="post"><label>Your Name:</label><input type="text" name="username"> <button type="submit">Submit</button></form>');
+    res.send('<form action="/store-user" method="post"><label>Your Name:</label><input type="text" name="username"> <button type="submit">Submit</button></form>');
 });
 
 app.post('/store-user',function(req, res) {

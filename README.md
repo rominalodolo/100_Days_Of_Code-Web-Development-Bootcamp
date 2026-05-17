@@ -1198,10 +1198,24 @@ Add Nodemon so you can run the project without needing to rerun node app.js each
 `` npm i nodemon --save-dev ``
 
 in your package.json file: 
+
 ```
 "scripts": {
     "start": "nodemon app.js"
-  },
-  ```
+},
+```
 
-  then in terminal : `` npm start `` 
+then in terminal : `` npm start `` 
+
+
+Learning Check: ExpressJS Basics [Day 49]
+Quiz:
+
+Q1: What is Express (or ExpressJS / express.js)?
+A: A library for js in a Nodejs environment 
+
+Q2: 
+
+
+
+

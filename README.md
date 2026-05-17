@@ -1155,6 +1155,9 @@ A: The process does not finish automatically
 
 Downloading or installing NodeJS express 
 
+npm : Node package manager
+`` npm init`` 
+`` npm npm i express`` 
 
 
 

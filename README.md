@@ -1132,3 +1132,18 @@ Testing server ports and requests:
 <img width="495" height="375" alt="Screenshot 2026-05-17 at 16 16 39" src="https://github.com/user-attachments/assets/4fc64395-aa9d-43dc-b284-c94ce8bb7205" />
 
 <img width="495" height="375" alt="Screenshot 2026-05-17 at 16 16 32" src="https://github.com/user-attachments/assets/bbe506fd-1bb9-4ada-875f-2a12ee7e330c" />
+
+
+Quiz
+Q1: What is NodeJS?
+A: NodeJS is a javascript runtime (i.e. tool that executes JS code).
+
+Q2: What changes about your JS code, once you start executing it with NodeJS (instead of in the browser)?
+
+
+
+
+
+
+
+

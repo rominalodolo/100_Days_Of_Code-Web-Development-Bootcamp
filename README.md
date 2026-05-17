@@ -1127,3 +1127,8 @@ A: CSS
 [Download](https://nodejs.org/en/download) for mac 
 <img width="1273" height="823" alt="Screenshot 2026-05-04 at 12 00 36" src="https://github.com/user-attachments/assets/baf572ee-d67f-4086-b81b-e1db4e074f41" />
 
+
+Testing server ports and requests: 
+<img width="495" height="375" alt="Screenshot 2026-05-17 at 16 16 39" src="https://github.com/user-attachments/assets/4fc64395-aa9d-43dc-b284-c94ce8bb7205" />
+
+<img width="495" height="375" alt="Screenshot 2026-05-17 at 16 16 32" src="https://github.com/user-attachments/assets/bbe506fd-1bb9-4ada-875f-2a12ee7e330c" />

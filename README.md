@@ -1194,4 +1194,5 @@ Working app:
 <img width="500" height="215" alt="Screenshot 2026-05-17 at 19 58 43" src="https://github.com/user-attachments/assets/507aff1a-5283-43b8-9560-5909a811f757" />
 
 
-
+Add Nodemon so you can run the project without needing to rerun node app.js each time in the terminal
+`` npm i nodemon --save-dev ``

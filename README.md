@@ -1215,7 +1215,23 @@ Quiz:
 Q1: What is Express (or ExpressJS / express.js)?
 A: A library for js in a Nodejs environment 
 
-Q2: 
+Q2: What is "npm"?
+A: A tool installed together with NodeJS that is required to load other then Javascript packages.
+
+Q3: What does "npm install" do?
+A: It downloads and saves a thirdparty package into your local project
+
+Q4: What's the advantage of using ExpressJS instead of "just NodeJS"?
+A: It simplifies the creation of web servers and the handeling of requests and responses 
+
+Q5: What is a "Route"?
+
+
+
+
+
+
+
 
 
 

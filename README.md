@@ -1160,6 +1160,8 @@ npm : Node package manager
 `` npm npm i express`` 
 
 
+Creating a form with express 
+<img width="689" height="187" alt="Screenshot 2026-05-17 at 18 34 33" src="https://github.com/user-attachments/assets/f76b5da5-c0a8-4706-8b9f-179c7a986376" />
 
 
 

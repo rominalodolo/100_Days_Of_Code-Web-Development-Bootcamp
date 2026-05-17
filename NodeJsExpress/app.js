@@ -27,6 +27,14 @@ app.post('/store-user',function(req, res) {
     const fileData = fs.readFileSync(filePath); // Read the existing data from the file
     const existingUsers = JSON.parse(fileData); // Parse the existing data as JSON
 
+    let responseData = '<ul>';
+
+    for (const user of existingUsers) {
+        responseData += '<li>' + user + '</li>';
+    }
+
+    responseData += '</ul>';
+    
     existingUsers.push(userName); // Add the new username to the array
 
     fs.writeFileSync(filePath, JSON.stringify([userName])); // Write the username to the file (you can modify this to append to an array if you want to store multiple usernames)

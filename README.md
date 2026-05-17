@@ -1196,3 +1196,12 @@ Working app:
 
 Add Nodemon so you can run the project without needing to rerun node app.js each time in the terminal
 `` npm i nodemon --save-dev ``
+
+in your package.json file: 
+```
+"scripts": {
+    "start": "nodemon app.js"
+  },
+  ```
+
+  then in terminal : `` npm start `` 

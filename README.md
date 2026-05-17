@@ -1,4 +1,3 @@
-<img width="916" height="917" alt="Screenshot 2026-05-17 at 20 16 26" src="https://github.com/user-attachments/assets/f073bf60-2294-4a59-871f-c537c1996bb2" />
 # 100 Days Of Code Web Development Bootcamp
 >
 > 100 Days Of Code - Web Development Bootcamp by Maximilian Schwarzmüller Udemy Course. 
@@ -1207,7 +1206,7 @@ in your package.json file:
 ```
 
 then in terminal : `` npm start `` 
-![Uploading Screenshot 2026-05-17 at 20.16.26.png…]()
+<img width="916" height="917" alt="Screenshot 2026-05-17 at 20 16 26" src="https://github.com/user-attachments/assets/f073bf60-2294-4a59-871f-c537c1996bb2" />
 
 
 Learning Check: ExpressJS Basics [Day 49]

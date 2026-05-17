@@ -2,8 +2,15 @@ const express = require('express');
 
 const app = express();
 
-function handleRequest(request, response) {
+app.get('/currenttime', (req, res) => {
+  res.status(200).send('<h1>' + new Date().toISOString() + '</h1>');
+});
 
+
+app.listen(3000)
+
+
+function handleRequest(request, response) {
   if(request.url === '/currenttime') {
     response.statusCode = 200;
     response.end('<h1>' + new Date().toISOString() + '</h1>');

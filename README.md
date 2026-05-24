@@ -1235,6 +1235,10 @@ A: A request handeler that executes for multiple (or even all) incoming requests
 
 
 
+## Section 19 
+
+Static and Dynamic webpage with Node Express
+Starter code - the front end [here](https://github.com/academind/100-days-of-web-development/tree/19-more-express-static-dynamic-content/code/00-starting-project/frontend-site)
 
 
 

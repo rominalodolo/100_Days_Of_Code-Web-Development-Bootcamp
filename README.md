@@ -1245,6 +1245,27 @@ Starter code - the front end [here](https://github.com/academind/100-days-of-web
 
 
 
+#### Quiz: STatic and Dynamic content  
+Question 1:
+What's "static content"?
+Content that is not manipulated by server-side code (eg, css, images..)
+
+Question 2:
+What's the idea behind a "template engine" like EJS?
+You can use it to easily generate dynamic html content on the server.
+
+Question 3:
+What is the result of this EJS expression inside of a .ejs file (if userName = 'Max')?
+`<p>'Max'</p>`
+
+Question 4:
+How can you repeat HTML snippets inside of a EJS template?
+Via a loop used in conjunction with the correct EJS "tags".
+
+Question 5:
+What's NOT a benefit of creating an includable partial?
+You can show content if a certain condition is met.
+
 
 
 

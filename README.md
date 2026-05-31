@@ -1267,6 +1267,90 @@ What's NOT a benefit of creating an includable partial?
 You can show content if a certain condition is met.
 
 
+Query Parameters vs Route Parameters [Day 53]
+Route Parameters in "Dynamic Routes"
+In this section, you learned about "dynamic routes" that utilize route parameters to extract dynamic values from the URL path.
+
+For example:
+
+router.get('/restaurants/:id', ...)
+In this example, id is a route parameter that will hold different values when this URL / path is visited. For example, if a user enters /restaurants/r1, id will be equal to r1.
+
+Route parameters are super useful as they allow us to use one single route to load different data based on the concrete route parameter value.
+
+It is important to understand that the route parameter (:id in the above example) is a key part of the URL path. Just /restaurants would NOT be handled by the above route for example - because it's missing a value for the route parameter.
+
+Query Parameters
+We also learned about a concept called "query parameters" in this section.
+
+It's easy to mix up "query parameters" and "route parameters" but these are fundamentally different concepts that solve different problems.
+
+Where "route parameters" (see above) are NOT optional and a key part of the route definition (i.e. the load won't become active if no value is provided for the route parameter), "query parameters" are totally optional!
+
+"Query parameters" are typically used to add extra information to a URL path.
+
+For example:
+
+/restaurants?order=asc
+Here the "order" query parameter is added with a value of "asc" (query parameters are always separated from the "main path" via the ? symbol).
+
+Out of the box, a query parameter does nothing! 
+
+Visitors of a website can add as many of them as you want. You can add them via links or by submitting a form via a GET request as shown in the previous lecture (as a side-note: Instead of a GET form, we could've also constructed a link with a query parameter in the previous lecture - but I did want to introduce the idea of hidden input fields).
+
+It's up to you, the developer, to add code that might handle such an optional query parameter to do some extra work on the server-side - for example, you could change the ordering of the items in an array (as shown in the last lecture), you could filter items or do anything else.
+
+Route Parameters vs Query Parameters
+As explained above, query parameters are optional and NOT a key part of the route path, route parameters on the other hand are!
+
+Route parameters are used to determine which route should become active and then they can be parsed inside of the route to get the concrete value for the route parameter (e.g. a restaurant id).
+
+Query parameters on the other hand are optional and you typically don't use them for determining which route should be executed - instead they can be used for attaching extra information to a loaded route / URL.
+
+
+<img width="1541" height="619" alt="Screenshot 2026-05-31 at 17 46 32" src="https://github.com/user-attachments/assets/5a47c4bf-5c5e-4525-87b3-ae123111c705" />
+
+
+Quiz: 
+Question 1:
+What's the purpose of "dynamic routes"?
+Handel requests where paths are variable and contain varying information (eg an id)
+
+Question 2:
+Why do we need dynamic routes in certain scenarios?
+Beause information / data can e encoded in the path and extracted in the handeler
+
+
+Question 3:
+What would be a scenario for using a dynamic route?
+You want to load the detail page for a single product in an online hsop 
+
+Question 4:
+What's the idea behind "Http status codes"?
+Tne status (success. failure for different reasons ) can be easily communicated ti client (software).
+
+Question 5:
+What's a 404 / "Not Found" error about?
+The client requested a resource / page and that resource could net be found on the server ( eg an invalid product id or invalid path )
+
+Question 6:
+What's the purpose of the "default error handling middleware" in Express projects?
+It's a mechanisim that's focused on handeling any errors that occurred in other routes / middleare 
+
+Question 7:
+What's the idea behind code refactoring and splitting your code into multiple files (also outside of Node / Express projects)?
+To increase code maintainability and readability 
+
+Question 8:
+Which statement about "importing" and "exporting" is NOT true?
+You can always import all contents from all your files
+
+Question 9:
+What's the purpose of the "Express Router" (express.Router())?
+It allows you to slpit your route definitions across multiple files / definition bloacks 
+
+
+
 
 
 

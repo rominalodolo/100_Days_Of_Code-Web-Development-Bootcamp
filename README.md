@@ -1448,6 +1448,9 @@ Variables (and constants) are only available in the scope where they weredefined
 
 
 
+Destructuring objects and arrays 
+<img width="937" height="447" alt="image" src="https://github.com/user-attachments/assets/59797688-3c00-4be0-b33f-8f5265237dde" />
+
 
 
 

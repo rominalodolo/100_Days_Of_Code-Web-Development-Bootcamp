@@ -1347,9 +1347,37 @@ You can always import all contents from all your files
 
 Question 9:
 What's the purpose of the "Express Router" (express.Router())?
-It allows you to slpit your route definitions across multiple files / definition bloacks 
+It allows you to slpit your route definitions across multiple files / definition blocks 
 
 
+
+## Section 21
+### Error Data & Throwing Custom Errors [Day 55]
+When errors occur, you also always get some data (typically an object) with more information about that error (e.g. a message and a sequence of steps that lead to the error).
+
+You can get hold of that object / data like this:
+
+```
+try {
+    somethingThatMightFail();
+} catch (error) { // accept an "error parameter" after catch
+    console.log(error.message);
+}
+```
+
+You can accept the error data like a parameter (even though it technically isn't a function) after catch.
+
+What exactly that data is (e.g. an object with a message property) will depend on the function / method that caused the error.
+
+You can also throw your own errors:
+
+```
+function doSomething() {
+    // do something ...
+    throw { message: 'Something went wrong! };
+}
+```
+That's a bit more advanced but that is in the end what all these built-in functions and methods do, if they cause an error.
 
 
 

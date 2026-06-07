@@ -1501,6 +1501,9 @@ A: It allows you to write promised-based code in a more readable way.
 
 
 
+## Section 22 
+Databases 
+<img width="999" height="459" alt="image" src="https://github.com/user-attachments/assets/84119605-1a0d-4ff5-a46d-af636be77a91" />
 
 
 

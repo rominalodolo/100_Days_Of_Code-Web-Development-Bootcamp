@@ -1476,6 +1476,37 @@ Async
 <img width="1410" height="733" alt="image" src="https://github.com/user-attachments/assets/e894a6a5-baff-4d7c-af68-96b79d175286" />
 
 
+#### Learning Check: Asynchronous Code [Day 56]
+Quiz 17
+
+Question 1:
+What is an "asynchronous operation"?
+A: An operation that is exectuted "in the background", without blocking other tasks
+
+Question 2:
+What's a callback function?
+A: A fucnion that is passed as a parameter to another function to be executed at some point in the future
+
+Question 3:
+What's a "Promise" in JavaScript?
+A: A built-in object that wraps ascnycronous operations and allows you to write more structerd code
+
+Question 4:
+Do all long-taking operations support Promises?
+A:No
+
+Question 5:
+What does async / await do?
+A: It allows you to write promised-based code in a more readable way. 
+
+
+
+
+
+
+
+
+
 
 
 

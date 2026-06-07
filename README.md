@@ -1525,6 +1525,47 @@ Question 4:
 What's a core idea behind NoSQL databases?
 A: Data is structed such that it reduced complexity of queries
 
+### Section 25
+
+<img width="1016" height="524" alt="image" src="https://github.com/user-attachments/assets/b72990ea-a580-4e52-bb97-bafaf273ca69" />
+
+
+Learning Check: SQL Introduction [Day 59]
+Quiz 19
+
+Question 1:
+Which statement about SQL database systems is TRUE?
+A: Normalized data is stored across multiple tables 
+
+Question 2:
+Which statement about SQL database systems is TRUE?
+A: Data in dbs are structed
+
+Question 3:
+If multiple records from different tables are related with each other: How are those relations reflected in the database tables?
+A: Relations are defied with help of fields to refer to fields in other tables
+
+Question 4:
+What does this SQL statement do?
+
+`SELECT * from products WHERE price > 10.99`
+A: It fetches all colums (fields) for all products where the price is greater that 10.99
+
+Question 5:
+Which of the following statements would be correct for inserting data into a "products" table?
+A: `INSERT INTO (name, price) VALUES ('A book', 10.99)`
+
+Question 6:
+How many records does the following statement possibly delete?
+
+`DELETE FROM products WHERE price < 10`
+
+A: All matching records
+
+Question 7:
+What does INNER JOIN do, when used in a SQL query?
+A: It combines cols from multiple tables into one result set
+
 
 
 

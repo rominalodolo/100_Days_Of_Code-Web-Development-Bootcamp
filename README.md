@@ -1380,7 +1380,7 @@ function doSomething() {
 That's a bit more advanced but that is in the end what all these built-in functions and methods do, if they cause an error.
 
 
-Quiz: 
+#### Quiz 15: 
 Question 1:
 What's an effect of using "default parameters" in functions?
 A: Some parameters are now optional since they assume values automatically, if not set specifically when a function is called. 
@@ -1450,6 +1450,33 @@ Variables (and constants) are only available in the scope where they weredefined
 
 Destructuring objects and arrays 
 <img width="937" height="447" alt="image" src="https://github.com/user-attachments/assets/59797688-3c00-4be0-b33f-8f5265237dde" />
+
+#### Learning Check: More on Objects [Day 55]
+Quiz 16
+
+
+Question 1:
+What's the idea behind "classes"?
+A: You can create blueprints for objects
+
+Question 2:
+What's a good name for a class that defines a blueprint for a product in an online shop?
+A: Product
+
+Question 3:
+What's the role of a "constructor" method?
+A: It allows you to write logic that executes when a new object based on the class is created. 
+
+Question 4:
+What does the "this" keyword refer to?
+A; To an object based on the class
+
+
+Async 
+<img width="1410" height="733" alt="image" src="https://github.com/user-attachments/assets/e894a6a5-baff-4d7c-af68-96b79d175286" />
+
+
+
 
 
 

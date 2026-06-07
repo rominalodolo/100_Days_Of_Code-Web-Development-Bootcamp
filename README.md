@@ -1380,5 +1380,93 @@ function doSomething() {
 That's a bit more advanced but that is in the end what all these built-in functions and methods do, if they cause an error.
 
 
+Quiz: 
+Question 1:
+What's an effect of using "default parameters" in functions?
+A: Some parameters are now optional since they assume values automatically, if not set specifically when a function is called. 
+
+Question 2:
+Which syntax is correct for setting a default parameter?
+A: default values are added after all other parameters.
+```
+function multiply(number, factor = 2) {
+return number * factor;
+}
+```
+
+Question 3:
+What's the main idea behind "Rest parameters"?
+A: Functions can be called with a variable amount of parameter values 
+
+Question 4:
+Which "Rest parameters" syntax / usage is correct?
+
+```
+function logAll(...messages) {
+// some logic
+}
+
+logAll ("hi", ""there);
+```
+
+Question 5:
+What does the "spread operator" (...) do?
+A: It pulls value (or key-value pairs) out of arrays and objects
+
+Question 6:
+Which statement about functions is correct?
+A: functions are objects - but the can be executed (called)
+
+Question 7:
+Which statement about reference values is **NOT** correct?
+A: Reference values are stored as values in variables / constants
+
+Question 8:
+What's stored in number in the below snippet?
+
+`const number = 32;`
+
+A: The value 32
+
+Question 9:
+Which output will this code snippet log to the console?
+```
+const hobbies = ['Sports', 'Cooking'];
+const newHobbies = hobbies;
+newHobbies.push('Reading');
+console.log(hobbies);
+```
+A: `['Sports', 'Cooking', 'Reading'] `
+
+Question 10:
+What's the idea behind error handling with try / catch?
+A: error handeling 
+
+Question 11:
+What is the idea behind the concept of "variable scope"?
+Variables (and constants) are only available in the scope where they weredefined (and 'nested scopes')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

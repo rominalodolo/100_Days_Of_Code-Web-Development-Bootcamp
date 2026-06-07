@@ -1506,9 +1506,24 @@ Databases
 <img width="999" height="459" alt="image" src="https://github.com/user-attachments/assets/84119605-1a0d-4ff5-a46d-af636be77a91" />
 
 
+#### Learning Check: Databases Introduction [Day 57]
+Quiz 18
 
+Question 1:
+Why do we need databases (at least in many websites and web applications)?
+A: Because database optimise data storage and retrievsl 
 
+Question 2:
+What IS a "database" or "database system" actually in the end?
+A: Extra software that you install
 
+Question 3:
+Which statement about RDBMS (SQL) database systems is WRONG?
+A: Nested or connected data is stored in only few tables 
+
+Question 4:
+What's a core idea behind NoSQL databases?
+A: Data is structed such that it reduced complexity of queries
 
 
 

@@ -1568,11 +1568,10 @@ A: It combines cols from multiple tables into one result set
 
 
 
+## Section 24: Blog web app 
 
-
-
-
-
+<img width="1117" height="655" alt="image" src="https://github.com/user-attachments/assets/8697897c-6a7f-4eff-a472-08bc9b1a70ad" />
+<img width="1117" height="655" alt="image" src="https://github.com/user-attachments/assets/897c6c28-6218-442d-8e14-bc6eaf7187bb" />
 
 
 

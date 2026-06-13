@@ -1576,7 +1576,17 @@ A: It combines cols from multiple tables into one result set
 
 
 
+Connecting to MongoDB - Potential Error
+In the next lecture, you'll learn how to connect your NodeJS app to MongoDB.
 
+For this, we'll write this code (in the next lecture):
+
+const client = await MongoClient.connect('mongodb://localhost:27017');
+When using NodeJS 18 (or higher), this code may fail. If that's the case, simply try:
+
+const client = await MongoClient.connect('mongodb://127.0.0.1:27017');
+
+`npm install mongodb`
 
 
 

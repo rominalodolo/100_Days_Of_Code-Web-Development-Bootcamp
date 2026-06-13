@@ -8,3 +8,9 @@ const pool = mysql.createPool({
 });
 
 module.exports = pool;
+
+
+// const mongodb = require('mongodb');
+// const MongoClient = mongodb.MongoClient;
+
+//MongoClient.connect('mongodb://localhost:27017');

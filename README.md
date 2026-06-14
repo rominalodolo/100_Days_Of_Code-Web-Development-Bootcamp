@@ -1592,7 +1592,18 @@ const client = await MongoClient.connect('mongodb://127.0.0.1:27017');
 
 
 
+MongoDB Projection & NodeJS
+In the previous lecture, we added "projection" to only fetch selected fields from the database - this was done via:
 
+... // other code
+.find({}, { title: 1, summary: 1, 'author.name': 1 })
+This the correct syntax when using the MongoDB shell but it's actually not correct when using the NodeJS driver (to be precise: when working with the latest version of that driver).
+
+Instead, you should use the separate project() method to add projection - like this:
+
+... // other code
+.find({})
+.project({ title: 1, summary: 1, 'author.name': 1 })
 
 
 

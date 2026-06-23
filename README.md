@@ -1616,5 +1616,40 @@ Adding package:
 ### **Quiz 20**
 Learning Check: File Uploads [Day 68]
 
+Question 1:
+Why does "file upload" involve both the frontend AND the backend?
+A: Becuase users need to be able to pick files and those files then need to be stored on some remote machine.
+
+Question 2:
+How can you add a file picker to your website?
+A: Add the input typw="file" element to your HTML code. 
+
+Question 3:
+How can you show a preview of a picked image?
+A: You need to write your own JS logic to react to picked files and show a preview
+
+Question 4:
+How can uploaded files be handled on the server?
+A: They can be parsed from the incoming request body
+
+Question 5:
+How can middleware packages like "multer" be helpful when it comes to dealing with uploaded files?
+A: They help with parsing and storing incoming files.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

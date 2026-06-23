@@ -1606,7 +1606,15 @@ Instead, you should use the separate project() method to add projection - like t
 .project({ title: 1, summary: 1, 'author.name': 1 })
 
 
+Adding package: 
+> Multer adds a body object and a file or files object to the request object. The body object contains the values of the text fields of the form, the file or files object contains the files uploaded via the form.
+> 
+> Link: https://www.npmjs.com/package/multer 
+>
+> Install: `npm i multer`
 
+### **Quiz 20**
+Learning Check: File Uploads [Day 68]
 
 
 

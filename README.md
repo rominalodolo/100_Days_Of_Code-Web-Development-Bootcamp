@@ -1,4 +1,4 @@
-# 100 Days Of Code Web Development Bootcamp
+<img width="1452" height="803" alt="Screenshot 2026-06-28 at 19 01 16" src="https://github.com/user-attachments/assets/7c145043-5079-4461-8d27-09c7e1f80330" /># 100 Days Of Code Web Development Bootcamp
 >
 > 100 Days Of Code - Web Development Bootcamp by Maximilian Schwarzmüller Udemy Course. 
 >
@@ -1637,10 +1637,41 @@ How can middleware packages like "multer" be helpful when it comes to dealing wi
 A: They help with parsing and storing incoming files.
 
 
+<img width="1134" height="738" alt="Screenshot 2026-06-28 at 18 51 50" src="https://github.com/user-attachments/assets/0bc50e50-123e-49cb-a0e3-3287656e0a8d" />
+
+<img width="1452" height="803" alt="Screenshot 2026-06-28 at 18 57 05" src="https://github.com/user-attachments/assets/88d88d9b-1887-4417-8d7b-9e5a639309fc" />
+
+<img width="1452" height="803" alt="Screenshot 2026-06-28 at 19 01 16" src="https://github.com/user-attachments/assets/2bbdc97a-3fd8-4ab5-819d-d6a80bcfee99" />
 
 
+### Quiz 21
+Learning Check: Ajax / JS-driven Http Requests [Day 70]
 
+Question 1:
+What are "Ajax requests"?
+A: http requests are sent "manually" via rowser-side javascript.
 
+Question 2:
+How can you send Http requests via JavaScript?
+A: With help of built in ojects / features like XMLHttpRequest of the fetch() function
+
+Question 3:
+What does the fetch() function return when you call it?
+A: A promise that will resolve to the Http response (once it's there).
+
+Question 4:
+Why is the process of "sending Http requests" considered an "asynchronous task"?
+A: Because it can take a bit longer and doesnt complete instantly 
+
+Question 5:
+What's the role of Http status codes?
+A: They hold information about the success or failure of a request ( and why it succeeded or failed)
+
+Question 6:
+What are PATCH, PUT & DELETE Http methods all about?
+A: These are extra methods ich can be used with Ajax requests (if the server supports them with appropriate routes)
+
+<img width="1452" height="803" alt="Screenshot 2026-06-28 at 21 20 52" src="https://github.com/user-attachments/assets/f8b705a6-d29e-488a-a9f1-4857f5c3b249" />
 
 
 

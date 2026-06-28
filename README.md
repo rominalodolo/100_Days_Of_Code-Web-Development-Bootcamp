@@ -1679,6 +1679,8 @@ User authentication
 
 <img width="1452" height="803" alt="image" src="https://github.com/user-attachments/assets/eaef3f02-5b10-415f-a976-d8556d5f4131" />
 
+Link: https://www.npmjs.com/package/bcryptjs 
+Install: `npm i bcryptjs`
 
 
 

@@ -1683,12 +1683,29 @@ Link: https://www.npmjs.com/package/bcryptjs
 Install: `npm i bcryptjs`
 
 
+<img width="1452" height="803" alt="Screenshot 2026-06-29 at 00 00 57" src="https://github.com/user-attachments/assets/7893fddf-0eee-467c-a81e-a679165a857d" />
 
 
+<img width="1452" height="803" alt="Screenshot 2026-06-29 at 00 11 18" src="https://github.com/user-attachments/assets/b1cf427b-701c-482a-a852-f0aea2e0359d" />
 
 
+<img width="1452" height="803" alt="Screenshot 2026-06-29 at 00 14 07" src="https://github.com/user-attachments/assets/c6a6b5b8-16f0-4a31-81f2-8cc8087321ae" />
 
 
+<img width="1452" height="803" alt="Screenshot 2026-06-29 at 00 15 18" src="https://github.com/user-attachments/assets/aeb8a217-7210-4124-bff5-cfca77372c19" />
+
+Important: Code Adjustment Needed For Next Lecture
+In the next lecture, we'll work with sessions & cookies. But for the code (that's about to be shown in the next lecture) to work, you'll need to adjust it:
+
+demo.js
+
+Replace
+
+req.session.user = { id: existingUser._id, email: existingUser.email };
+with
+
+req.session.user = { id: existingUser._id.toString(), email: existingUser.email };
+Also see this Q&A thread for more details: https://www.udemy.com/course/100-days-of-code-web-development-bootcamp/learn/lecture/27767182#questions/21224554
 
 
 

@@ -1677,6 +1677,7 @@ A: These are extra methods ich can be used with Ajax requests (if the server sup
 ## Section 29 
 User authentication 
 
+<img width="1452" height="803" alt="image" src="https://github.com/user-attachments/assets/eaef3f02-5b10-415f-a976-d8556d5f4131" />
 
 
 

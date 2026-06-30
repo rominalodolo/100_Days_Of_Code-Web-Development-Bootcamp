@@ -1709,3 +1709,16 @@ Also see this Q&A thread for more details: https://www.udemy.com/course/100-days
 
 
 
+Important: Code Adjustment Needed For Next Lecture
+If you implemented the code adjustment mentioned in this lecture, you'll also need to adjust the code in the next lecture.
+
+In the demo.js file, you should replace this code (which will be written in the next lecture):
+```
+const user = await db.getDb().collection('users').findOne({_id: req.session.user.id});
+with
+
+const user = await db.getDb().collection('users').findOne({_id: ObjectId.createFromHexString(req.session.user.id)});
+For that to work, you'll also need to add this import at the top of the demo.js file:
+
+const { ObjectId } = require('mongodb');
+```

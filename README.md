@@ -1722,3 +1722,23 @@ For that to work, you'll also need to add this import at the top of the demo.js 
 
 const { ObjectId } = require('mongodb');
 ```
+
+
+### Learning Check: Authentication [Day 73]
+Quiz 22
+
+Question 1:
+What is "Authentication" all about?
+A: It's about controlling which users have access to whuch actions on your website.
+
+Question 2:
+How is "Authentication" typically implemented in standard websites?
+A: You use sessions and cookies to store and control whos logged in 
+
+Question 3:
+How should you store passwords in a database?
+A: Store the submitted passwords after hashing them 
+
+Question 4:
+What are "Sessions"?
+A: Sessions are "pieces of data" that are generated

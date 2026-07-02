@@ -1729,7 +1729,7 @@ Quiz 22
 
 Question 1:
 What is "Authentication" all about?
-A: It's about controlling which users have access to whuch actions on your website.
+A: It's about controlling which users have access to which actions on your website.
 
 Question 2:
 How is "Authentication" typically implemented in standard websites?
@@ -1741,4 +1741,8 @@ A: Store the submitted passwords after hashing them
 
 Question 4:
 What are "Sessions"?
-A: Sessions are "pieces of data" that are generated
+A: Sessions are "pieces of data" that are generated and stored on the server (eg. in a database). They are connected to clients via session cookies. 
+
+Question 5:
+What are "Cookies"?
+A: Cookies are "small peices of data" that are sent from a serverd to a browser (and then stored in the browser). They are automatically sent by the browser to the server with every request

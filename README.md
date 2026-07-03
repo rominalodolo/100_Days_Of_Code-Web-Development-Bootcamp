@@ -1746,3 +1746,53 @@ A: Sessions are "pieces of data" that are generated and stored on the server (eg
 Question 5:
 What are "Cookies"?
 A: Cookies are "small peices of data" that are sent from a serverd to a browser (and then stored in the browser). They are automatically sent by the browser to the server with every request
+
+
+## CSRF (Cross-Site Request Forgery) attack
+
+<img width="1512" height="923" alt="Screenshot 2026-07-03 at 09 36 38" src="https://github.com/user-attachments/assets/41da4ef4-801b-4a5b-81d6-ff4d0b3078af" />
+
+
+<img width="1512" height="923" alt="Screenshot 2026-07-03 at 09 42 22" src="https://github.com/user-attachments/assets/2419779b-c909-4d08-b269-5428deaad58d" />
+
+
+>> 
+>> A Cross-Site Request Forgery (CSRF) attack is a type of malicious exploit of a website where unauthorized commands are transmitted from a user that the web application trusts.
+>> This attack occurs when a malicious website, email, or program causes a user’s web browser to perform an unwanted action on a trusted site for which the user is currently authenticated.
+>>
+
+<img width="1512" height="923" alt="Screenshot 2026-07-03 at 09 55 02" src="https://github.com/user-attachments/assets/a69e80d6-1111-4db3-adbb-e36bc809e5bc" />
+
+
+
+csurf() Alternative
+Unfortunately, the csurf package, which is used in some sections of this course, is no longer maintained at this time. The development team recently deprecated this popular package, saying that it should no longer be used (https://github.com/expressjs/csurf#deprecated). 
+
+The purpose of the corresponding course lectures is to explain the general principle of CSRF attacks. You can still safely use the deprecated package for learning purposes, since attacks are only simulated locally in our code.
+
+However, in practice you should now choose a different package (https://www.npmjs.com/search?q=express%20csrf). You may, for example, consider using this package (which has a different API than csurf()): https://www.npmjs.com/package/csrf-csrf.
+
+Please understand that support in this course currently still focuses on the csurf API, as shown in the course videos and code snapshots.
+
+And most importantly, the general principle explained in this course is package independent.
+
+Extra matterials to read about the depreciation of the package: https://github.com/expressjs/express/discussions/5491 
+<img width="1573" height="749" alt="Screenshot 2026-07-03 at 11 41 49" src="https://github.com/user-attachments/assets/a739adb8-189d-4b0b-ad40-e2e6d225878b" />
+
+
+
+## XSS attacks: 
+
+>>
+>> Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted websites.
+>> XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user. Flaws that allow these attacks to succeed are quite widespread and occur anywhere a web application uses input from a user within the output it generates without validating or encoding it.
+>> An attacker can use XSS to send a malicious script to an unsuspecting user. The end user’s browser has no way to know that the script should not be trusted, and will execute the script. Because it thinks the script came from a trusted source, the malicious script can access any cookies, session tokens, or other sensitive information retained by the browser and used with that site.
+>> These scripts can even rewrite the content of the HTML page.
+>>
+
+
+<img width="869" height="446" alt="Screenshot 2026-07-03 at 12 49 08" src="https://github.com/user-attachments/assets/ea08fb03-f897-4951-a6cc-8dbcc1a11b56" />
+
+
+
+

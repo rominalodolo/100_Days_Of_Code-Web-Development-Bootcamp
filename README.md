@@ -1794,5 +1794,17 @@ Extra matterials to read about the depreciation of the package: https://github.c
 <img width="869" height="446" alt="Screenshot 2026-07-03 at 12 49 08" src="https://github.com/user-attachments/assets/ea08fb03-f897-4951-a6cc-8dbcc1a11b56" />
 
 
+## SQL Injections 
 
+>>
+>> SQL injection is a code injection technique that can destroy your database. SQL injections are a common web hacking technique.
+>> SQL injections are when attackers insert malicious SQL code into user-input fields, and this way can read, modify, or delete sensitive data in a database.
+>> SQL injections usually occur when you ask a user for input, like username/userid, and instead of giving a name/id, the attacker inserts an SQL command that executes something in your database.
+>>
+
+<img width="840" height="465" alt="Screenshot 2026-07-03 at 15 27 50" src="https://github.com/user-attachments/assets/b0d4c821-31e5-48cd-8080-6cffa830213d" />
+
+<img width="840" height="465" alt="Screenshot 2026-07-03 at 15 40 36" src="https://github.com/user-attachments/assets/7a4d1cf6-aa2a-4773-9cc5-893617c3be98" />
+
+<img width="868" height="477" alt="Screenshot 2026-07-03 at 16 05 50" src="https://github.com/user-attachments/assets/40b33cac-bbbf-4767-bc97-8de1156da51d" />
 

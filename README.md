@@ -1825,4 +1825,52 @@ Quiz 23
 
 Question 1:
 How is "Website Security" different from "Authentication"?
-A:
+A: Authentication is about controlling user access to intended features, website security is about securing your overall website against unintended actions or access.
+
+Question 2:
+How does a CSRF attack work?
+A: A forged request is sent to your server (from outside your site) - triggering an unintended action (from the user's perspective).
+
+Question 3:
+How can you defend against CSRF attacks?
+A: CSRF tokens can be used to defend against CSRF attacks.
+
+Question 4:
+How does a XSS attack work?
+A: Malicious JavaScript code is injected into your site (so that it's rendered / activated for your website visitors).
+
+Question 5:
+How can you defend against XSS attacks?
+A: Escape user-generated input (when outputting it on the site) and / or sanitize any user input before processing or storing it.
+
+Question 6:
+How does SQL Injection work?
+A: A malicious SQL statement is injected into one of your SQL statements.
+
+Question 7:
+How can you defend against SQL injection attacks?
+A: Escape all user-generated input before using it in queries.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

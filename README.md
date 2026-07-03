@@ -1854,6 +1854,9 @@ A: Escape all user-generated input before using it in queries.
 
 
 
+#### THE MVC Pattern: 
+Model, View, Control 
+
 
 
 

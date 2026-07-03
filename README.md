@@ -1683,6 +1683,10 @@ Link: https://www.npmjs.com/package/bcryptjs
 Install: `npm i bcryptjs`
 
 
+Link:  https://www.npmjs.com/package/express-validator
+Install: `npm i express-validator`
+
+
 <img width="1452" height="803" alt="Screenshot 2026-06-29 at 00 00 57" src="https://github.com/user-attachments/assets/7893fddf-0eee-467c-a81e-a679165a857d" />
 
 
@@ -1856,6 +1860,9 @@ A: Escape all user-generated input before using it in queries.
 
 #### THE MVC Pattern: 
 Model, View, Control 
+
+
+<img width="1073" height="542" alt="Screenshot 2026-07-03 at 21 06 25" src="https://github.com/user-attachments/assets/f51d252d-35ea-4596-8254-ca0e4430fa28" />
 
 
 

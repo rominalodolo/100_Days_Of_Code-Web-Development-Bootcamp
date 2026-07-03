@@ -1808,3 +1808,21 @@ Extra matterials to read about the depreciation of the package: https://github.c
 
 <img width="868" height="477" alt="Screenshot 2026-07-03 at 16 05 50" src="https://github.com/user-attachments/assets/40b33cac-bbbf-4767-bc97-8de1156da51d" />
 
+<img width="851" height="479" alt="Screenshot 2026-07-03 at 16 33 30" src="https://github.com/user-attachments/assets/9eedee95-5ec9-4e98-a187-d4113f119ff3" />
+
+<img width="851" height="479" alt="Screenshot 2026-07-03 at 16 33 22" src="https://github.com/user-attachments/assets/a1642e33-0726-4cad-9fd7-56120667c33a" />
+
+
+#### Recap 
+
+<img width="851" height="464" alt="Screenshot 2026-07-03 at 17 29 35" src="https://github.com/user-attachments/assets/c82dc3cb-59e8-421f-856a-8dda1d524c03" />
+
+<img width="851" height="464" alt="Screenshot 2026-07-03 at 17 28 27" src="https://github.com/user-attachments/assets/5d672c7c-81ea-48c8-83bd-d62a8bf7f5a4" />
+
+
+### Learning Check: Security [Day 75]
+Quiz 23
+
+Question 1:
+How is "Website Security" different from "Authentication"?
+A:

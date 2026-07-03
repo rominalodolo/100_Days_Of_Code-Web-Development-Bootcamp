@@ -1861,8 +1861,31 @@ A: Escape all user-generated input before using it in queries.
 #### THE MVC Pattern: 
 Model, View, Control 
 
-
 <img width="1073" height="542" alt="Screenshot 2026-07-03 at 21 06 25" src="https://github.com/user-attachments/assets/f51d252d-35ea-4596-8254-ca0e4430fa28" />
+
+
+#### Learning Check: Refactoring & MVC [Day 78]
+Quiz 24
+
+Question 1:
+Why did we split and move so much code in this course section?
+A: Because code should be reorganized and structured in a clean way as the codebase grows.
+
+Question 2:
+What is "Refactoring" all about?
+A: It's about extracting functionalities into separate functions / code files and about splitting your code into logical building blocks that work together.
+
+Question 3:
+What does MVC stand for?
+A: Model - View - Controller
+
+Question 4:
+What's the task of a "model" in the MVC pattern?
+A: Hold any logic that's related to talking to data sources and structuring data.
+
+Question 5:
+What are "Controllers" in the MVC pattern?
+A: The "things" (code) that connect models and views (e.g. to extract request data, call model methods etc.).
 
 
 

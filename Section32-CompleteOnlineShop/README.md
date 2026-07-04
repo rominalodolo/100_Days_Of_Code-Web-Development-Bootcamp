@@ -34,6 +34,15 @@ app.listen(3000);
 ```
 
 Then set up project structure: 
-- make views, models & then controller folders.
+- make views, models & then controller and routes folders.
 
-Next step is adding 
+Next step is adding other folders: 
+- views: 
+    - admin
+    - cart
+    - products 
+    - auth
+- routes
+    - auth.routes.js
+
+    

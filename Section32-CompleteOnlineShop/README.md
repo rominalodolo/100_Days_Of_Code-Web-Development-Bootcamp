@@ -45,4 +45,13 @@ Next step is adding other folders:
 - routes
     - auth.routes.js
 
-    
+
+Next add this package: 
+`npm install ejs`
+
+then make app know to use this 
+```
+app.set('view engine', 'ejs');
+app.set ('views',)
+```
+

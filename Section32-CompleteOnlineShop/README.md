@@ -8,7 +8,7 @@
 Install: 
 `npm init -y` 
 `npm install express`
-`npm install --save-dev` (nodemon)
+`npm install --save-dev` (nodemon) or `npm i nodemon` (I needed to install it this way for my project to run the other command did not work for me that was suggested by the tutorial.)
 
 Update your package json script:
 ```
@@ -55,3 +55,4 @@ app.set('view engine', 'ejs');
 app.set ('views',)
 ```
 
+Mongo DB set up: 

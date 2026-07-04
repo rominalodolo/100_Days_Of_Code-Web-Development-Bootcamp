@@ -2,6 +2,6 @@ const express = require('express');
 
 const app = express.Router();
 
-router.get();
+router.get('/signup',);
 
 module.exports = router;

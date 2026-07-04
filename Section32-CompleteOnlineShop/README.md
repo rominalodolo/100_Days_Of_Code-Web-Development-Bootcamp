@@ -56,3 +56,8 @@ app.set ('views',)
 ```
 
 Mongo DB set up: 
+
+
+
+
+`npm i bcryptjs` 

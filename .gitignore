@@ -10874,3 +10874,15 @@ Section32-CompleteOnlineShop/node_modules/undefsafe/package.json
 Section32-CompleteOnlineShop/node_modules/undefsafe/README.md
 Section32-CompleteOnlineShop/node_modules/undefsafe/.github/workflows/release.yml
 Section32-CompleteOnlineShop/node_modules/undefsafe/lib/undefsafe.js
+Section32-CompleteOnlineShop/node_modules/.bin/bcrypt
+Section32-CompleteOnlineShop/node_modules/bcryptjs/index.d.ts
+Section32-CompleteOnlineShop/node_modules/bcryptjs/index.js
+Section32-CompleteOnlineShop/node_modules/bcryptjs/LICENSE
+Section32-CompleteOnlineShop/node_modules/bcryptjs/package.json
+Section32-CompleteOnlineShop/node_modules/bcryptjs/README.md
+Section32-CompleteOnlineShop/node_modules/bcryptjs/types.d.ts
+Section32-CompleteOnlineShop/node_modules/bcryptjs/bin/bcrypt
+Section32-CompleteOnlineShop/node_modules/bcryptjs/umd/index.d.ts
+Section32-CompleteOnlineShop/node_modules/bcryptjs/umd/index.js
+Section32-CompleteOnlineShop/node_modules/bcryptjs/umd/package.json
+Section32-CompleteOnlineShop/node_modules/bcryptjs/umd/types.d.ts

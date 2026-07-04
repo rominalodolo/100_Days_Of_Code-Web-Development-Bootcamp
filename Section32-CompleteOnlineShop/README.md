@@ -56,6 +56,13 @@ app.set ('views',)
 ```
 
 Mongo DB set up: 
+Home terminal :
+`$ brew install mongodb-atlas`
+
+`$ atlas setup`
+
+(Download Link)[https://www.mongodb.com/try/download/community]
+
 
 `npm i connect-mongodb-session`
 
@@ -63,3 +70,4 @@ Mongo DB set up:
 
 
 `npm i bcryptjs` 
+`npm i ejs`

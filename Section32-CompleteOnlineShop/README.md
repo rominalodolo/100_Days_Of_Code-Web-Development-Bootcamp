@@ -73,3 +73,4 @@ Home terminal :
 `npm i ejs`
 `npm i express-session`
 `npm i multer`
+`npm i uuid`

@@ -71,3 +71,4 @@ Home terminal :
 
 `npm i bcryptjs` 
 `npm i ejs`
+`npm i express-session`

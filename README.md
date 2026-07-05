@@ -1888,7 +1888,24 @@ What are "Controllers" in the MVC pattern?
 A: The "things" (code) that connect models and views (e.g. to extract request data, call model methods etc.).
 
 
+## Mongo DB connection (Part of Secion 32)
+<img width="795" height="443" alt="Screenshot 2026-07-05 at 00 55 39" src="https://github.com/user-attachments/assets/567468b0-4f10-4fbc-aa3f-79a7c3de78b8" />
 
+<img width="1594" height="792" alt="Screenshot 2026-07-05 at 21 36 53" src="https://github.com/user-attachments/assets/b045cb91-5e55-45a8-8781-3375bb02daac" />
+
+
+<img width="572" height="316" alt="Screenshot 2026-07-05 at 21 37 08" src="https://github.com/user-attachments/assets/6b5231ef-76c3-4999-ae31-cc7e7bcb380e" />
+<img width="1085" height="785" alt="Screenshot 2026-07-05 at 21 41 13" src="https://github.com/user-attachments/assets/8bb3c552-dc1d-402f-a354-339663f78f5d" />
+<img width="537" height="356" alt="Screenshot 2026-07-05 at 21 42 02" src="https://github.com/user-attachments/assets/1e198d95-c2ed-41c1-93b3-a05d099c80a4" />
+
+
+## Section 33 
+#### Setting up Payment Services
+<img width="1577" height="798" alt="Screenshot 2026-07-05 at 22 17 36" src="https://github.com/user-attachments/assets/d5b877be-ad79-40e6-8017-fe8534fa8a30" />
+
+[Strip payments](https://docs.stripe.com/payments/accept-a-payment?integration=checkout): 
+<img width="1577" height="798" alt="Screenshot 2026-07-05 at 22 22 34" src="https://github.com/user-attachments/assets/2c14be48-8264-4962-9254-97340078f6d0" />
+<img width="871" height="445" alt="Screenshot 2026-07-05 at 22 31 10" src="https://github.com/user-attachments/assets/d839a6e5-1b0b-47b1-a2ed-82f5ca05ce4e" />
 
 
 

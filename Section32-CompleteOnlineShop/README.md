@@ -67,6 +67,7 @@ Home terminal :
 `npm i connect-mongodb-session`
 
 `npm i csurf` (depreciated)
+`npm i csrf` (added when I saw I got errors for missing module)
 
 
 `npm i bcryptjs` 
@@ -74,3 +75,14 @@ Home terminal :
 `npm i express-session`
 `npm i multer`
 `npm i uuid`
+
+
+Array Notes
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+Primitive value notes: 
+https://academind.com/articles/reference-vs-primitive-values 
+
+Temp db for this on MongoDB:
+
+ 

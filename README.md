@@ -1937,11 +1937,13 @@ When it comes to using a service, you should always dive deeply into the officia
 <img width="871" height="445" alt="Screenshot 2026-07-05 at 23 18 13" src="https://github.com/user-attachments/assets/1c726223-7022-4942-99de-b1ed6993b2ce" />
 
 
+<img width="871" height="445" alt="Screenshot 2026-07-05 at 23 26 21" src="https://github.com/user-attachments/assets/766fd20b-6806-4a91-a69a-8fdaef572de7" />
 
 
 
 
-
+Hosting images and video 
+https://cloudinary.com/ 
 
 
 

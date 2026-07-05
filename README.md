@@ -1932,8 +1932,9 @@ Of course there is an infinite amount of possible scenarios, problems and servic
 
 When it comes to using a service, you should always dive deeply into the official documentation provided by the service as that documentation describes in detail how you should use the service. Often, official documentation pages also contain useful examples.
 
+## Hosting sites
 
-
+<img width="871" height="445" alt="Screenshot 2026-07-05 at 23 18 13" src="https://github.com/user-attachments/assets/1c726223-7022-4942-99de-b1ed6993b2ce" />
 
 
 

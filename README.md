@@ -1946,5 +1946,7 @@ Hosting images and video
 https://cloudinary.com/ 
 
 
+<img width="871" height="445" alt="Screenshot 2026-07-05 at 23 27 43" src="https://github.com/user-attachments/assets/aa9002bf-a12d-430b-bb3d-45bd241c28a9" />
+
 
 

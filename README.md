@@ -1949,4 +1949,13 @@ https://cloudinary.com/
 <img width="871" height="445" alt="Screenshot 2026-07-05 at 23 27 43" src="https://github.com/user-attachments/assets/aa9002bf-a12d-430b-bb3d-45bd241c28a9" />
 
 
+Add a Favicon again - just as we did it when we first deployed (published) a website way earlier in the course.
+
+You could add a Favicon file in the statically served folder of your website and then add the appropriate entry in your HTML files / templates (in the <head> section):
+
+`<link rel="icon" href="/path/to/favicon.ico" type="image/x-icon" />`    
+Also see the lecture where we first added a Favicon: https://www.udemy.com/course/4015622/learn/lecture/28721282
+
+
+A JavaScript minifier is a development tool used to reduce the file size of JavaScript code by removing unnecessary characters without altering how the program behaves. This process optimizes website performance, lowers bandwidth consumption, and accelerates page load times. 
 

@@ -1996,3 +1996,33 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS
 <img width="944" height="516" alt="Screenshot 2026-07-08 at 13 13 50" src="https://github.com/user-attachments/assets/a24c7194-1825-4db3-9c21-10327391b806" />
 
 <img width="944" height="516" alt="Screenshot 2026-07-08 at 13 29 33" src="https://github.com/user-attachments/assets/21358fd2-c998-4472-ac28-a337fbad4ecd" />
+
+
+Learning Check: Custom (REST) APIs [Day 97]
+Quiz 25
+
+Question 1:
+What exactly is an "API"?
+A: A "bridge" (collection of documentation methods, functions etc.) between your code or app / website and a thrid party service or package. 
+
+Question 2:
+How is a (third-party) JS package different from a service like Stripe?
+A: JS packages expose (utility) functionalities to your code, servces offer any kind of servise (eg, payments) that are executed by another company / provider. 
+
+Question 3:
+What's the idea behind "REST APIs"?
+A: You use REST APIs by sending Http requests to certain "endpoints" (Http method + URL combinations).
+
+Question 4:
+Which use-case is NOT a good case for building a REST API?
+A: You want to expose certain utility functions for the JS code of other developers. 
+
+Question 5:
+What's the idea behind "CORS"?
+A: Browsers try to protect resources / APIs by denyiing requests to URLs from different domains (for Ajax requests).
+
+
+
+
+
+

@@ -1,5 +1,3 @@
-<img width="944" height="516" alt="Screenshot 2026-07-08 at 13 13 50" src="https://github.com/user-attachments/assets/30107663-4a8f-4a6e-929f-902c4f02eed6" /># 100 Days Of Code Web Development Bootcamp
->
 > 100 Days Of Code - Web Development Bootcamp by Maximilian Schwarzmüller Udemy Course. 
 >
 >[Link to course](https://www.udemy.com/course/100-days-of-code-web-development-bootcamp)

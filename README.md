@@ -1986,3 +1986,8 @@ Video Tutorials: https://www.youtube.com/playlist?list=PLgIMQe2PKPSJuYZR50Frphdt
 #### CORS 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS
 
+
+<img width="944" height="516" alt="Screenshot 2026-07-08 at 13 02 54" src="https://github.com/user-attachments/assets/8b4f8ef9-ee22-4893-aafa-ab8396b2c602" />
+
+<img width="944" height="516" alt="Screenshot 2026-07-08 at 13 06 43" src="https://github.com/user-attachments/assets/4f19822c-90d3-4b08-8e26-7e9c7e6d035b" />
+

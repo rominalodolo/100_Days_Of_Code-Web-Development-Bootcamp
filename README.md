@@ -1961,6 +1961,23 @@ Deployemnt docs: https://devcenter.heroku.com/categories/deployment
 Video Tutorials: https://www.youtube.com/playlist?list=PLgIMQe2PKPSJuYZR50Frphdt4QS9xp6pj
 
 
+JavaScript & Floating Point Arithmetic [Day 91] (milestone project)
+In the previous lecture, you could briefly see a newTotalPrice for the cart of -3.55271... (at 10:10).
+
+What's this about?
+
+The actual number was a pretty small number as it was -3.55271...*e-10 (i.e. it was a very, very small number, expressed as <some number> x e^-10).
+
+Where does this small number come from though? 59.99 - 59.99 should yield zero, not a super small number, right?
+
+The problem is, that computers aren't that great when it comes to doing math with fractional numbers (i.e. non-integer numbers => number that have decimal places).
+
+If you want to dive into the theory behind this "error", you can explore blog posts like this one: https://modernweb.com/what-every-javascript-developer-should-know-about-floating-points/
+
+In your daily work, the more important takeaway is to understand how to work around such issues. And that is pretty simple: If you want to output a value and avoid this small precision error (in the output), you can achieve this by calling toFixed(<number of decimal places>) on the number.
+
+E.g. 5.121321.toFixed(2) yields 5.12 => The other decimal places are simply cut off.
+
 
 ## Section 35: Web services and building customs (REST) APis 
 
@@ -2024,5 +2041,21 @@ A: Browsers try to protect resources / APIs by denyiing requests to URLs from di
 
 
 
+Section 36:
+
+Learning Check: JavaScript Frameworks & Vue.js [Day 99]
+Quiz 26
+
+Question 1:
+Why could you consider using a (frontend / browser-side) JavaScript framework like Vue.js?
+A: Becuase it simplifies building (complex) frontend user interfaces.
+
+Question 2:
+What's the main job of frontend JS frameworks like Vue?
+A: They allow you to focus on the desigred end results instead of the step to get there.
+
+Question 3:
+What's the difference between Vue and EJS?
+A: These are kind of 2 similar packages BUT Vue.js is for client-side (browser-side) DOM manipulation, EJS is for server-side template rendering. 
 
 

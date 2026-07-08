@@ -1982,3 +1982,7 @@ Video Tutorials: https://www.youtube.com/playlist?list=PLgIMQe2PKPSJuYZR50Frphdt
 <img width="828" height="408" alt="Screenshot 2026-07-07 at 16 10 57" src="https://github.com/user-attachments/assets/b9931456-0a9d-46e4-93ad-048c63805806" />
 
 <img width="828" height="434" alt="Screenshot 2026-07-07 at 16 54 04" src="https://github.com/user-attachments/assets/975227e4-b9af-4479-bb85-05fd22927e8b" />
+
+#### CORS 
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS
+

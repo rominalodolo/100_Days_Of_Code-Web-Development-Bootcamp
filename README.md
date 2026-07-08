@@ -1995,5 +1995,4 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS
 
 <img width="944" height="516" alt="Screenshot 2026-07-08 at 13 13 50" src="https://github.com/user-attachments/assets/a24c7194-1825-4db3-9c21-10327391b806" />
 
-
-
+<img width="944" height="516" alt="Screenshot 2026-07-08 at 13 29 33" src="https://github.com/user-attachments/assets/21358fd2-c998-4472-ac28-a337fbad4ecd" />

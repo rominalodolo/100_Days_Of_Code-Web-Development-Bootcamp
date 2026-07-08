@@ -1907,7 +1907,7 @@ A: The "things" (code) that connect models and views (e.g. to extract request da
 <img width="1577" height="798" alt="Screenshot 2026-07-05 at 22 22 34" src="https://github.com/user-attachments/assets/2c14be48-8264-4962-9254-97340078f6d0" />
 <img width="871" height="445" alt="Screenshot 2026-07-05 at 22 31 10" src="https://github.com/user-attachments/assets/d839a6e5-1b0b-47b1-a2ed-82f5ca05ce4e" />
 
-
+Checkout Payments link https://docs.stripe.com/payments/checkout
 
 More Services: Social Login (Google, Facebook), Google Analytics & More [Day 93]
 As mentioned in the beginning of this module - there are plenty of services and packages that you could add to your website.
@@ -1940,8 +1940,6 @@ When it comes to using a service, you should always dive deeply into the officia
 <img width="871" height="445" alt="Screenshot 2026-07-05 at 23 26 21" src="https://github.com/user-attachments/assets/766fd20b-6806-4a91-a69a-8fdaef572de7" />
 
 
-
-
 Hosting images and video 
 https://cloudinary.com/ 
 
@@ -1959,3 +1957,28 @@ Also see the lecture where we first added a Favicon: https://www.udemy.com/cours
 
 A JavaScript minifier is a development tool used to reduce the file size of JavaScript code by removing unnecessary characters without altering how the program behaves. This process optimizes website performance, lowers bandwidth consumption, and accelerates page load times. 
 
+Heroku is a PaaS ( Platform as a Service ) 
+https://www.heroku.com/developers/
+Deployemnt docs: https://devcenter.heroku.com/categories/deployment
+Video Tutorials: https://www.youtube.com/playlist?list=PLgIMQe2PKPSJuYZR50Frphdt4QS9xp6pj
+
+
+
+## Section 35: Web services and building customs (REST) APis 
+
+<img width="921" height="516" alt="Screenshot 2026-07-07 at 08 46 09" src="https://github.com/user-attachments/assets/ee6a26f5-24f8-492f-a9c7-c6fab1ee75b0" />
+
+
+<img width="921" height="516" alt="Screenshot 2026-07-07 at 08 55 36" src="https://github.com/user-attachments/assets/942ca3ad-ede6-4470-85ca-a28bbd505e4a" />
+
+
+<img width="921" height="516" alt="Screenshot 2026-07-07 at 09 14 54" src="https://github.com/user-attachments/assets/d19dbf55-415f-4e2b-9783-b205ca72787b" />
+
+<img width="921" height="516" alt="Screenshot 2026-07-07 at 09 24 56" src="https://github.com/user-attachments/assets/a5aea309-cd14-49a6-8d86-935527ca815c" />
+
+
+<img width="828" height="408" alt="Screenshot 2026-07-07 at 16 09 40" src="https://github.com/user-attachments/assets/70fde326-de6c-4367-847b-1a7a65f22d31" />
+
+<img width="828" height="408" alt="Screenshot 2026-07-07 at 16 10 57" src="https://github.com/user-attachments/assets/b9931456-0a9d-46e4-93ad-048c63805806" />
+
+<img width="828" height="434" alt="Screenshot 2026-07-07 at 16 54 04" src="https://github.com/user-attachments/assets/975227e4-b9af-4479-bb85-05fd22927e8b" />
